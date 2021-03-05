@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="statefull" version="4">
+  <OBJECT>
+    <ID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <PID name="CapabilityModelCondition" mc="Standard.Package" uid="863fd416-2395-4fef-b227-3b143b0e2f67"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[statefull]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Cluster" mc="Standard.Package" uid="e855fe45-2fe7-4524-94ec-ef5a6b0aaeda"/>
+        <COMPID name="Cgroup" mc="Standard.Package" uid="34f53f29-8cd2-4eb3-a4e6-c11443ce62c0"/>
+        <COMPID name="Connbytes" mc="Standard.Package" uid="7d136b82-c251-474e-b5c5-0fd5b89216a9"/>
+        <COMPID name="Connlabel" mc="Standard.Package" uid="b6a7e6ab-8392-414d-9856-36dcbb15eed7"/>
+        <COMPID name="Connlimit" mc="Standard.Package" uid="0e7fa9bd-8d32-4bd8-a73f-cd07c786f0ed"/>
+        <COMPID name="Connmark" mc="Standard.Package" uid="c3a61853-39f8-4dbd-9874-15920bcb9ac2"/>
+        <COMPID name="Conntrack" mc="Standard.Package" uid="e61dcd97-cc81-4bfd-bab2-80e92e96724a"/>
+        <COMPID name="Devgroup" mc="Standard.Package" uid="c9090b12-f0f0-4ac1-b319-6def13feea36"/>
+        <COMPID name="Hashlimit" mc="Standard.Package" uid="b4b93969-75ee-4a4f-a544-caa2443fb86c"/>
+        <COMPID name="Helper" mc="Standard.Package" uid="c7e5611c-8bd6-4de6-87da-e1ee3173f051"/>
+        <COMPID name="Ipvs" mc="Standard.Package" uid="e2a0fbb8-c273-45d7-b3b1-db032d151a12"/>
+        <COMPID name="Limit" mc="Standard.Package" uid="ea629da8-dd46-46fa-8357-996ed2dea1d1"/>
+        <COMPID name="Mark" mc="Standard.Package" uid="91a8714a-05ff-41ea-bcf5-94a79bc282e2"/>
+        <COMPID name="Nfact" mc="Standard.Package" uid="83c49a9f-76b1-4201-9649-9f3ad7a5f86f"/>
+        <COMPID name="Osf" mc="Standard.Package" uid="756578f3-91e0-429b-a18c-262e2d5951e5"/>
+        <COMPID name="Quota" mc="Standard.Package" uid="6346193e-a525-41d9-b786-50471524cb00"/>
+        <COMPID name="Recent" mc="Standard.Package" uid="20b05d9d-f1ae-4bfc-959b-b81db8274504"/>
+        <COMPID name="Socket" mc="Standard.Package" uid="406acc59-afe7-4f35-8882-b3236406d21c"/>
+        <COMPID name="State" mc="Standard.Package" uid="ee5efff2-df0e-4943-974e-c67fe91d0470"/>
+        <COMPID name="Statistic" mc="Standard.Package" uid="1812e444-84bf-463c-b3ea-ef65bbca4c31"/>
+        <COMPID name="Time" mc="Standard.Package" uid="8fa42dd2-e867-4308-be40-100189daae82"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

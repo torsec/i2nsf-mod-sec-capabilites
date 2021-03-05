@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ttl" version="4">
+  <OBJECT>
+    <ID name="ttl" mc="Standard.Package" uid="5ccbe1ec-a1cd-4c25-bccf-96638da4f07a"/>
+    <PID name="packetModify" mc="Standard.Package" uid="47b14d3b-fda7-43ce-a2b2-d66e211613c9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ttl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TtlCapability" mc="Standard.Class" uid="839f9279-237b-4aa6-8685-c7a97122235f"/>
+        <COMPID name="TtlSetCapability" mc="Standard.Class" uid="b66b31c0-ee66-493a-8451-fc1446919862"/>
+        <COMPID name="TtlDecCapability" mc="Standard.Class" uid="b940976a-88c6-4203-a879-5556aec57d81"/>
+        <COMPID name="TtlIncCapability" mc="Standard.Class" uid="99aac837-929a-4156-9b41-d2df736e25cf"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="ttl Class diagram" mc="Standard.ClassDiagram" uid="384aeab4-ddcd-4ccd-a5ec-f51a4ee82769"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

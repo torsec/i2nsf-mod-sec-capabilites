@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Quota" version="4">
+  <OBJECT>
+    <ID name="Quota" mc="Standard.Package" uid="6346193e-a525-41d9-b786-50471524cb00"/>
+    <PID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Quota]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="QuotaBaseCapability" mc="Standard.Class" uid="85912b4a-79b7-43b6-a124-35741968c5de"/>
+        <COMPID name="QuotaCapability" mc="Standard.Class" uid="f88c3b6e-9178-448b-be16-aa59b2b1ee71"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Quota Class diagram" mc="Standard.ClassDiagram" uid="4ad344a9-c032-4781-b2a1-f2f2f91d9f44"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="JavaCompatibility" version="4">
+  <OBJECT>
+    <ID name="JavaCompatibility" mc="Infrastructure.EnumeratedPropertyType" uid="8fbe2fcd-ccce-49e3-bcfc-a4bd469eb845"/>
+    <PID name="JavaDesigner" mc="Infrastructure.ModuleComponent" uid="003800a8-0000-022e-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="BaseType">String</ATT>
+      <ATT name="Name"><![CDATA[JavaCompatibility]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Litteral">
+        <OBJECT>
+          <ID name="Java7" mc="Infrastructure.PropertyEnumerationLitteral" uid="d09329d5-f932-478a-9297-457d5d4c0c58"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Java7]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Java8" mc="Infrastructure.PropertyEnumerationLitteral" uid="9904c8a6-5487-4d11-9d4a-79ad7526baad"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Java8]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

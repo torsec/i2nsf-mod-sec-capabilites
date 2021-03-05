@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="base" version="4">
+  <OBJECT>
+    <ID name="base" mc="Standard.Package" uid="b038544b-3bfd-4201-95b1-15000fe56e71"/>
+    <PID name="CapabilityDataModelAction" mc="Standard.Package" uid="015e9e09-d3ec-4dfa-8503-26761f63357e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[base]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AcceptCapability" mc="Standard.Class" uid="945a031d-47e4-48a7-9f3b-e674829860e8"/>
+        <COMPID name="DropCapability" mc="Standard.Class" uid="77947bdb-7c23-40e8-bf59-97584fb7cec0"/>
+        <COMPID name="RejectCapability" mc="Standard.Class" uid="c710d52b-8128-4b82-a3d5-775273c6596f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

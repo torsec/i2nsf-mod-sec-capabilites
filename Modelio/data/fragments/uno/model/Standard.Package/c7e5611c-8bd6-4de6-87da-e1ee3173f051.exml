@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Helper" version="4">
+  <OBJECT>
+    <ID name="Helper" mc="Standard.Package" uid="c7e5611c-8bd6-4de6-87da-e1ee3173f051"/>
+    <PID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Helper]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="HelperBaseCapability" mc="Standard.Class" uid="7dba5ffd-a217-4dd0-9768-8557fc8cd1bc"/>
+        <COMPID name="HelperCapability" mc="Standard.Class" uid="3010b098-14c5-4cfc-8626-5d03cb153b62"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Help Class diagram" mc="Standard.ClassDiagram" uid="d1205e38-479f-465b-8803-e271039f6b19"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

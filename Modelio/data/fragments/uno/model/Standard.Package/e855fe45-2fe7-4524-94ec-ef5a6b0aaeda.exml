@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Cluster" version="4">
+  <OBJECT>
+    <ID name="Cluster" mc="Standard.Package" uid="e855fe45-2fe7-4524-94ec-ef5a6b0aaeda"/>
+    <PID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Cluster]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ClusterCapability" mc="Standard.Class" uid="c9ea6737-543e-4855-ba2a-3e05773147ea"/>
+        <COMPID name="ClusterTotalNodeCapability" mc="Standard.Class" uid="32b5f679-2904-46a2-bbf8-1e53a90e5a51"/>
+        <COMPID name="ClusterNodeHashCapability" mc="Standard.Class" uid="6b74ca15-ac64-484a-a98b-28c0e4cd3927"/>
+        <COMPID name="ClusterNodeMaskCapability" mc="Standard.Class" uid="a844bdc8-82a7-483f-9f60-a85fc3b3edbe"/>
+        <COMPID name="ClusterLocalNodeCapability" mc="Standard.Class" uid="a38e9f66-2453-4b67-9621-42c94c6e96ee"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Cluster Class diagram" mc="Standard.ClassDiagram" uid="96262213-1b60-4f98-bdd0-0bd69d355288"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Recent" version="4">
+  <OBJECT>
+    <ID name="Recent" mc="Standard.Package" uid="20b05d9d-f1ae-4bfc-959b-b81db8274504"/>
+    <PID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Recent]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="RecentCapability" mc="Standard.Class" uid="73757dc2-81ff-442b-af6b-5184ef550a8b"/>
+        <COMPID name="RecentNameCapability" mc="Standard.Class" uid="bbc03c9e-dde9-4e2a-b0de-91b4b1fcc8c6"/>
+        <COMPID name="RecentSetCapability" mc="Standard.Class" uid="849eebee-16ed-49d5-8c70-cdbae1105388"/>
+        <COMPID name="RecentRsourceCapability" mc="Standard.Class" uid="6cacad2f-a49c-4368-afb6-a4dea4c7dec0"/>
+        <COMPID name="RecentRdestCapability" mc="Standard.Class" uid="0a9bcec9-6736-45b6-9f36-170e310edadf"/>
+        <COMPID name="RecentMaskCapability" mc="Standard.Class" uid="cce22551-3613-41c5-88fe-4355665ad7dd"/>
+        <COMPID name="RecentRcheckCapability" mc="Standard.Class" uid="90a6f3cd-c4dd-476c-a8eb-2ce030e03939"/>
+        <COMPID name="RecentUpdateCapability" mc="Standard.Class" uid="e2b79a57-4595-44ae-a08f-c23d425f9789"/>
+        <COMPID name="RecentRemoveCapability" mc="Standard.Class" uid="c258cc20-0285-4ecc-a7de-8d945308e46c"/>
+        <COMPID name="RecentSecondsCapability" mc="Standard.Class" uid="f723c4dc-c622-4a21-a276-95850fe2be39"/>
+        <COMPID name="RecentReapCapability" mc="Standard.Class" uid="3cc4e9ac-b8bf-4607-a5ad-d82ad4fac536"/>
+        <COMPID name="RecentHitcountCapability" mc="Standard.Class" uid="dd8f51f9-59e4-4c98-baa6-da8f72571b67"/>
+        <COMPID name="RecentRttlCapability" mc="Standard.Class" uid="01830556-6dc4-4524-b357-473369e063b0"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Recent Class diagram" mc="Standard.ClassDiagram" uid="eb036750-748c-43e4-9804-3b0b039bc9aa"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

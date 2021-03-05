@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tcpoptstrip" version="4">
+  <OBJECT>
+    <ID name="tcpoptstrip" mc="Standard.Package" uid="c22f6fa4-8123-45b8-b019-a2442dac1683"/>
+    <PID name="packetModify" mc="Standard.Package" uid="47b14d3b-fda7-43ce-a2b2-d66e211613c9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tcpoptstrip]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TcpoptstripCapability" mc="Standard.Class" uid="a563d3a6-c0e0-4379-b221-70254972f506"/>
+        <COMPID name="StripOptionsCapability" mc="Standard.Class" uid="cc243467-61f1-479e-b25a-8e24761bd4b2"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="tcpoptstrip Class diagram" mc="Standard.ClassDiagram" uid="98099975-bd04-4e42-88fc-d847eb432778"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

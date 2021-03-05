@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="hl" version="4">
+  <OBJECT>
+    <ID name="hl" mc="Standard.Package" uid="a978db66-4127-45e8-9dc5-3797274e564b"/>
+    <PID name="packetManagement" mc="Standard.Package" uid="b1192f95-53bc-47db-a535-fc9bd157d3d7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[hl]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="HlCapability" mc="Standard.Class" uid="9d878275-b856-4fb3-9636-3abe1120115e"/>
+        <COMPID name="HlSetCapability" mc="Standard.Class" uid="9cab22c8-4382-4700-a830-7abc45da159e"/>
+        <COMPID name="HlDecCapability" mc="Standard.Class" uid="c317cb49-6261-42cc-8a68-5a296655ddd4"/>
+        <COMPID name="HlIncCapability" mc="Standard.Class" uid="aea91de0-4341-47af-9a6e-7d546124da26"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="hl Class diagram" mc="Standard.ClassDiagram" uid="5802e685-5b38-4dbe-8df7-04214a5f4b62"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

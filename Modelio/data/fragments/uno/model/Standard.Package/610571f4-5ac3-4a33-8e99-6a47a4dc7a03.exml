@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Set" version="4">
+  <OBJECT>
+    <ID name="Set" mc="Standard.Package" uid="610571f4-5ac3-4a33-8e99-6a47a4dc7a03"/>
+    <PID name="other" mc="Standard.Package" uid="eb81be9d-28f0-45a7-9692-414c470eb067"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Set]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SetConditionCapability" mc="Standard.Class" uid="0176be5b-d846-4c95-a8c7-4006daf11f61"/>
+        <COMPID name="MatchSetCapability" mc="Standard.Class" uid="a42289f5-e7e1-46cc-a9d4-ae4e8be5a98d"/>
+        <COMPID name="ReturnNomatchCapability" mc="Standard.Class" uid="ae81ca63-f886-482b-9caa-3d539d0a5e0a"/>
+        <COMPID name="UpdateCountersCapability" mc="Standard.Class" uid="5607e30a-bce5-433f-ad72-4c5c18477280"/>
+        <COMPID name="UpdateSubcountersCapability" mc="Standard.Class" uid="3c02410b-ebdf-4418-ac7a-b29fc53be9a3"/>
+        <COMPID name="PacketsCapability" mc="Standard.Class" uid="d3f9711e-b852-41b7-8af1-80092688c15f"/>
+        <COMPID name="BytesCapability" mc="Standard.Class" uid="c58d464a-8651-4a32-874a-2a810b1fbbd1"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Set Class diagram" mc="Standard.ClassDiagram" uid="5d0fc413-6269-42ec-acd5-212aff0c6579"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

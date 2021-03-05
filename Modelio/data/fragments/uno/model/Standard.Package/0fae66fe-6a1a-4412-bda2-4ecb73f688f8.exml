@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="connsecmark" version="4">
+  <OBJECT>
+    <ID name="connsecmark" mc="Standard.Package" uid="0fae66fe-6a1a-4412-bda2-4ecb73f688f8"/>
+    <PID name="stateful" mc="Standard.Package" uid="5c35dfba-f23e-4284-aeba-4a8fe0500332"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[connsecmark]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConnsecmarkCapability" mc="Standard.Class" uid="b2d680f4-3e9a-4fb8-aa51-da126473f4ce"/>
+        <COMPID name="ConnsecmarkSaveCapability" mc="Standard.Class" uid="46630361-0859-4413-a532-f415085695f7"/>
+        <COMPID name="ConnsecmarkRestoreCapability" mc="Standard.Class" uid="5cc23372-1df8-4b70-a330-f3f2c2e83972"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="connsecmark Class diagram" mc="Standard.ClassDiagram" uid="b4a4c524-9d63-4714-9d6e-76e7c399e3a7"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

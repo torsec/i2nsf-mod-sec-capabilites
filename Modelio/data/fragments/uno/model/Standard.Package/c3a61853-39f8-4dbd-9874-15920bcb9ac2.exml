@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Connmark" version="4">
+  <OBJECT>
+    <ID name="Connmark" mc="Standard.Package" uid="c3a61853-39f8-4dbd-9874-15920bcb9ac2"/>
+    <PID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Connmark]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConnmarkBaseConditionCapability" mc="Standard.Class" uid="fd7ee45c-a1dc-47e9-b5ee-5f74032f1a7a"/>
+        <COMPID name="ConnmarkCapability" mc="Standard.Class" uid="704f11f1-dc36-40c2-b103-1484026d6f5d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Connmark Class diagram" mc="Standard.ClassDiagram" uid="05da0c8a-fdb6-44c6-97cc-c938722afbd7"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

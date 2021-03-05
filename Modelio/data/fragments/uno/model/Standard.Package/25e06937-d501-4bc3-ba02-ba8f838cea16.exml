@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="nfqueue" version="4">
+  <OBJECT>
+    <ID name="nfqueue" mc="Standard.Package" uid="25e06937-d501-4bc3-ba02-ba8f838cea16"/>
+    <PID name="packetManagement" mc="Standard.Package" uid="b1192f95-53bc-47db-a535-fc9bd157d3d7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[nfqueue]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="NfQueueCapability" mc="Standard.Class" uid="8abf2807-3436-469e-962d-ba37896565b0"/>
+        <COMPID name="NfQueueBalanceCapability" mc="Standard.Class" uid="ce6b78c8-2e88-45b5-8f58-f98bbaa32295"/>
+        <COMPID name="NfQueueBypassCapability" mc="Standard.Class" uid="e7420c6d-4d36-4df0-9d16-678efdaa459d"/>
+        <COMPID name="NfQueueCpuFanoutCapability" mc="Standard.Class" uid="c0192bfe-d7c4-4e51-b49f-52694e8d03e1"/>
+        <COMPID name="NfQueueNumCapability" mc="Standard.Class" uid="de4bea95-da96-4d6d-bcb2-614d0201f063"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="nfqueue Class diagram" mc="Standard.ClassDiagram" uid="b583ce27-ac2e-4ebb-84d6-717eb9683b36"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

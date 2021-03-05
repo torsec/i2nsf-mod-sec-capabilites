@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="U32" version="4">
+  <OBJECT>
+    <ID name="U32" mc="Standard.Package" uid="6ed6d5a4-6d54-444d-9689-b788da80705b"/>
+    <PID name="programming" mc="Standard.Package" uid="86449973-49dd-4ff5-b881-dd70a31bd66b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[U32]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="U32Capability" mc="Standard.Class" uid="1b1b79c6-7c35-404b-bc09-a33fa31507d4"/>
+        <COMPID name="U32TestCapability" mc="Standard.Class" uid="e63bc78f-05c1-4924-a5ce-c54eb9d35310"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="U32 Class diagram" mc="Standard.ClassDiagram" uid="57d180c8-a8d5-428c-bb76-950fe0eb129b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

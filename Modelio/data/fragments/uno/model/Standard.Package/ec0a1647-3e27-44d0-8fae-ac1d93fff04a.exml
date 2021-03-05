@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="clusterip" version="4">
+  <OBJECT>
+    <ID name="clusterip" mc="Standard.Package" uid="ec0a1647-3e27-44d0-8fae-ac1d93fff04a"/>
+    <PID name="packetManagement" mc="Standard.Package" uid="b1192f95-53bc-47db-a535-fc9bd157d3d7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[clusterip]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ClusteripCapability" mc="Standard.Class" uid="4bd7a799-dbfe-4c71-8873-a8e112a16c38"/>
+        <COMPID name="NewClusteripCapability" mc="Standard.Class" uid="4701109d-16eb-4fc0-a32b-d7c4a8ef7ce7"/>
+        <COMPID name="HashModeCapability" mc="Standard.Class" uid="e69a59bc-3027-4548-a961-ae873af770f6"/>
+        <COMPID name="ClustermacCapability" mc="Standard.Class" uid="a6e6b9bc-263e-4d72-b47c-edece96e9c7f"/>
+        <COMPID name="TotalNodesCapability" mc="Standard.Class" uid="718e8b38-69c8-4d8e-8635-96b1bc95900f"/>
+        <COMPID name="LocalNodeCapability" mc="Standard.Class" uid="3889c7b8-f543-49a8-84d6-3bdd9ede6217"/>
+        <COMPID name="HashInitCapability" mc="Standard.Class" uid="d775a31f-047c-4f46-9599-1127aa3289fd"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="clusterip Class diagram" mc="Standard.ClassDiagram" uid="ea6ab72a-51fe-4398-8818-b9f86ae26441"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

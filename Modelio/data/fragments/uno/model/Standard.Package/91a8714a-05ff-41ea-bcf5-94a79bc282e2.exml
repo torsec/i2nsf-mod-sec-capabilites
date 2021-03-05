@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Mark" version="4">
+  <OBJECT>
+    <ID name="Mark" mc="Standard.Package" uid="91a8714a-05ff-41ea-bcf5-94a79bc282e2"/>
+    <PID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Mark]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MarkBaseCapability" mc="Standard.Class" uid="4b4bd1ef-cf6e-4d44-b125-e4389543c211"/>
+        <COMPID name="MarkCapability" mc="Standard.Class" uid="28722fc8-e5d5-40b0-9657-5e43eebf653f"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Mark Class diagram" mc="Standard.ClassDiagram" uid="1a499a10-a02a-40cb-9bea-75a99d8d72d2"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

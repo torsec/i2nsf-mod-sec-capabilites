@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Connlabel" version="4">
+  <OBJECT>
+    <ID name="Connlabel" mc="Standard.Package" uid="b6a7e6ab-8392-414d-9856-36dcbb15eed7"/>
+    <PID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Connlabel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConnLabelCapability" mc="Standard.Class" uid="143f7cc9-63c7-4efc-872f-a3f022e0152b"/>
+        <COMPID name="LabelCapability" mc="Standard.Class" uid="6544cbf8-1d50-47c1-a951-11fbeb6e6589"/>
+        <COMPID name="SetLabelCapability" mc="Standard.Class" uid="69543588-548f-458f-a6ef-83159f8780bf"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Connlabel Class diagram" mc="Standard.ClassDiagram" uid="590a5397-a8eb-455d-99b0-b66714bb7745"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Rpfilter" version="4">
+  <OBJECT>
+    <ID name="Rpfilter" mc="Standard.Package" uid="d0477553-fd35-488d-96ea-4afbf6c4398e"/>
+    <PID name="prerouting" mc="Standard.Package" uid="8fbb20bb-54ec-4992-89a5-d390bf142344"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Rpfilter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="RpfilterCapability" mc="Standard.Class" uid="76a65350-4bff-4470-8454-8b2fdca9eafb"/>
+        <COMPID name="LooseCapability" mc="Standard.Class" uid="a64ad180-9d45-407c-980d-279f246b82ca"/>
+        <COMPID name="ValdimarkCapability" mc="Standard.Class" uid="c3aeb242-0f97-467e-a022-eb0553561837"/>
+        <COMPID name="AcceptLocalCapability" mc="Standard.Class" uid="380a1502-8231-4d49-a8d2-38bc7808cd0c"/>
+        <COMPID name="InvertCapability" mc="Standard.Class" uid="8a112194-4151-49b3-bbdf-3c9c2c9f755b"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Rpfilter Class diagram" mc="Standard.ClassDiagram" uid="1e56b311-9d3e-4a2c-858a-b2e627a1540f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Physdev" version="4">
+  <OBJECT>
+    <ID name="Physdev" mc="Standard.Package" uid="03b42c11-f928-47b2-ba87-ee9c74a89790"/>
+    <PID name="LayerCondition" mc="Standard.Package" uid="e99d70a2-210d-4d90-84fe-005ae49cecc5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Physdev]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="PhysdevCapability" mc="Standard.Class" uid="0119f760-222a-4b96-abb1-6043c1cbd09b"/>
+        <COMPID name="PhysdevInCapability" mc="Standard.Class" uid="eae8a35f-8a16-4557-a7df-d4db745aaa62"/>
+        <COMPID name="PhysdevOutCapability" mc="Standard.Class" uid="fc85b9b3-000d-4b60-a99a-5337e90597ff"/>
+        <COMPID name="PhydevIsInCapability" mc="Standard.Class" uid="070f8b1b-76e0-43cf-bf9f-50a34b3589d0"/>
+        <COMPID name="PhysdevIsBridgedCapability" mc="Standard.Class" uid="d1ffff8f-ab42-41d1-a87e-c68857f9f860"/>
+        <COMPID name="PhysDevIsOutCapability" mc="Standard.Class" uid="93323839-d087-402a-93a5-57ec81d63207"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Rateest" version="4">
+  <OBJECT>
+    <ID name="Rateest" mc="Standard.Package" uid="e60badcb-0264-4814-b3c2-c5abe49ee6f9"/>
+    <PID name="postrouting" mc="Standard.Package" uid="84328c9c-cf7d-45ca-ae83-9a9954ca6321"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Rateest]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="RateestConditionCapability" mc="Standard.Class" uid="faca1ad7-2845-44a3-94d4-63be9dd1afbf"/>
+        <COMPID name="RateestCapability" mc="Standard.Class" uid="69c4287b-f28b-4d80-8ece-76ef53147c6b"/>
+        <COMPID name="RateestNameConditionCapability" mc="Standard.Class" uid="64b49a5f-36fa-403c-a89c-4912e448232e"/>
+        <COMPID name="RateestBpsCapability" mc="Standard.Class" uid="f0ccfb9b-55bd-41c0-a79a-be3d3b80cee7"/>
+        <COMPID name="RateestPpsCapability" mc="Standard.Class" uid="46d24442-068b-4587-a62a-745978000257"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Rateest Class diagram" mc="Standard.ClassDiagram" uid="6d0a579d-0552-4eb0-8739-a60944f849a0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

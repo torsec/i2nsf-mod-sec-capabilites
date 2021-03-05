@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Conntrack" version="4">
+  <OBJECT>
+    <ID name="Conntrack" mc="Standard.Package" uid="e61dcd97-cc81-4bfd-bab2-80e92e96724a"/>
+    <PID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Conntrack]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConntrackCapability" mc="Standard.Class" uid="4e21c763-6e3d-4da4-92c7-bef5feecfa77"/>
+        <COMPID name="ConnTrackOriginalSourcePortCapability" mc="Standard.Class" uid="02f8303c-6004-4afb-acb9-9467bdef2ab1"/>
+        <COMPID name="ConnTrackProtocolCapability" mc="Standard.Class" uid="4a968d68-3cc9-4f4b-9523-cbcdcc7b0187"/>
+        <COMPID name="ConnTrackOriginalSourceAddressCapability" mc="Standard.Class" uid="6aa69da8-e4d4-4be4-a3cd-266eb3f004aa"/>
+        <COMPID name="ConnTrackStateCapability" mc="Standard.Class" uid="d04eeacf-34fe-4e0e-a85d-7aee5fe8a3ea"/>
+        <COMPID name="ConnTrackStatusCapability" mc="Standard.Class" uid="7bd6f881-e851-4105-beb1-a92af73ad868"/>
+        <COMPID name="ConnTrackDirCapability" mc="Standard.Class" uid="79321ef3-58ea-4574-b26c-7e1874e9f1d6"/>
+        <COMPID name="ConnTrackExpireTimeCapability" mc="Standard.Class" uid="7cfe3f60-aedc-4510-8465-99789a252fd7"/>
+        <COMPID name="ConnTrackOriginalDestinationAddressCapability" mc="Standard.Class" uid="0351b3e3-cf0e-4026-81f2-0ec2ba09bde1"/>
+        <COMPID name="ConnTrackReplySourceAddressCapability" mc="Standard.Class" uid="b0dd20d1-14a4-4663-82f0-d72745617744"/>
+        <COMPID name="ConnTrackReplyDestinationAddressCapability" mc="Standard.Class" uid="d4432158-baed-4ecd-9eb9-0573ce6d5f52"/>
+        <COMPID name="ConnTrackReplySourcePortCapability" mc="Standard.Class" uid="1a9c7c7d-1c6e-4e82-9d11-5372796439fe"/>
+        <COMPID name="ConnTrackReplyDestinationPortCapability" mc="Standard.Class" uid="7e2f6057-74aa-4965-99db-be0862c014fa"/>
+        <COMPID name="ConnTrackOriginalDestinationPortCapability" mc="Standard.Class" uid="acbd529a-916a-4a4f-91bd-d4890a473d49"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Conntrack Class diagram" mc="Standard.ClassDiagram" uid="f95b7b4d-6cc8-4fbc-bbc7-d856bd488427"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

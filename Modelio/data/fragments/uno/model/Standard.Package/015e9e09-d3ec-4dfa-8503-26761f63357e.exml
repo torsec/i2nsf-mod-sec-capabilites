@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CapabilityDataModelAction" version="4">
+  <OBJECT>
+    <ID name="CapabilityDataModelAction" mc="Standard.Package" uid="015e9e09-d3ec-4dfa-8503-26761f63357e"/>
+    <PID name="CapabilityDataModel" mc="Standard.Package" uid="09ca03bd-b2cf-49b5-9c6c-199b1b2d181e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CapabilityDataModelAction]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="base" mc="Standard.Package" uid="b038544b-3bfd-4201-95b1-15000fe56e71"/>
+        <COMPID name="experimental" mc="Standard.Package" uid="9e539aca-bd37-46d9-b314-164eaa776006"/>
+        <COMPID name="iptables" mc="Standard.Package" uid="2a04a5af-23e3-4c12-96b4-b660703f4a2c"/>
+        <COMPID name="packetManagement" mc="Standard.Package" uid="b1192f95-53bc-47db-a535-fc9bd157d3d7"/>
+        <COMPID name="packetModify" mc="Standard.Package" uid="47b14d3b-fda7-43ce-a2b2-d66e211613c9"/>
+        <COMPID name="report" mc="Standard.Package" uid="b2be5b45-37df-4e20-8e37-026499a21c42"/>
+        <COMPID name="stateful" mc="Standard.Package" uid="5c35dfba-f23e-4284-aeba-4a8fe0500332"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="CapDM Action-Event-DefaultAction-ResolutionStrategy-Evaluation" mc="Standard.ClassDiagram" uid="e4c9c9b8-fddd-43bb-b16f-415451a0d6aa"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

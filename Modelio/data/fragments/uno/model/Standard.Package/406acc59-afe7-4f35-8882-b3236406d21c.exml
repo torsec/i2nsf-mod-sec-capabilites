@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Socket" version="4">
+  <OBJECT>
+    <ID name="Socket" mc="Standard.Package" uid="406acc59-afe7-4f35-8882-b3236406d21c"/>
+    <PID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Socket]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SocketCapability" mc="Standard.Class" uid="087695a6-65ff-4c95-9e05-28f3957cad34"/>
+        <COMPID name="SocketTransparentCapability" mc="Standard.Class" uid="dc2a9108-ed43-4247-85ed-5adb4a268f6b"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Socket Class diagram" mc="Standard.ClassDiagram" uid="9ec5098b-1e58-45ac-8b6e-d3fc30ffc68e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CapabilityModelCondition" version="4">
+  <OBJECT>
+    <ID name="CapabilityModelCondition" mc="Standard.Package" uid="863fd416-2395-4fef-b227-3b143b0e2f67"/>
+    <PID name="CapabilityDataModel" mc="Standard.Package" uid="09ca03bd-b2cf-49b5-9c6c-199b1b2d181e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CapabilityModelCondition]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="other" mc="Standard.Package" uid="eb81be9d-28f0-45a7-9692-414c470eb067"/>
+        <COMPID name="postrouting" mc="Standard.Package" uid="84328c9c-cf7d-45ca-ae83-9a9954ca6321"/>
+        <COMPID name="prerouting" mc="Standard.Package" uid="8fbb20bb-54ec-4992-89a5-d390bf142344"/>
+        <COMPID name="programming" mc="Standard.Package" uid="86449973-49dd-4ff5-b881-dd70a31bd66b"/>
+        <COMPID name="protocol" mc="Standard.Package" uid="782cc679-76d0-452b-8192-81e97c4e33f6"/>
+        <COMPID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="CapDM Condition" mc="Standard.ClassDiagram" uid="2733c5af-30bd-4a6b-967e-d4983828fead"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

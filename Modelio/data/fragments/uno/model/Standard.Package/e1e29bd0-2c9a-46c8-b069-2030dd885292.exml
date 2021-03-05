@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Dccp" version="4">
+  <OBJECT>
+    <ID name="Dccp" mc="Standard.Package" uid="e1e29bd0-2c9a-46c8-b069-2030dd885292"/>
+    <PID name="protocol" mc="Standard.Package" uid="782cc679-76d0-452b-8192-81e97c4e33f6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Dccp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DccpCapability" mc="Standard.Class" uid="95bde90e-a426-41f1-9040-3010cc201762"/>
+        <COMPID name="DccpCCValCapability" mc="Standard.Class" uid="65da9b16-98fd-4930-b070-31724ebb7c32"/>
+        <COMPID name="DccpDataOffsetCapability" mc="Standard.Class" uid="ffe0c970-f58f-4fa4-acf7-ea5fd0c38765"/>
+        <COMPID name="DccpDestinationPortCapability" mc="Standard.Class" uid="5facf4b9-ce2c-4bc4-b23a-3ff9ee8554e5"/>
+        <COMPID name="DccpSourcePortCapability" mc="Standard.Class" uid="d23f2037-d627-417f-8865-0cb9e5aa3b46"/>
+        <COMPID name="DccpCsCovCapability" mc="Standard.Class" uid="e0ae8efd-96a6-401a-a352-1c8e50a805d1"/>
+        <COMPID name="DccpChecksumCapability" mc="Standard.Class" uid="2642e734-9b30-40dc-88a4-0863cfcdf34d"/>
+        <COMPID name="DccpResCapability" mc="Standard.Class" uid="38c54e7d-28e5-4261-9462-3ec6747d9683"/>
+        <COMPID name="DccpTypeCapability" mc="Standard.Class" uid="407c42b5-a98d-416b-ab60-5b7e4279cccd"/>
+        <COMPID name="DccpSequenceNumberCapability" mc="Standard.Class" uid="58a11cd8-2cdd-4a3f-8610-046cbffec40d"/>
+        <COMPID name="DccpMultiPortsCapability" mc="Standard.Class" uid="1b5c9c8e-ae70-4769-bb8c-7ac84ca8f855"/>
+        <COMPID name="DccpMultiSurcePortCapability" mc="Standard.Class" uid="8b791b36-d2b7-41e5-8e9e-43c4d85c44f4"/>
+        <COMPID name="DccpMultiportCapability" mc="Standard.Class" uid="70200067-b191-401e-9287-9680e5036e97"/>
+        <COMPID name="DccpMultiDestinationPortCapability" mc="Standard.Class" uid="f1c0bca3-4a2b-4640-a3bc-23b96abfef9d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Dccp Class diagram" mc="Standard.ClassDiagram" uid="7ca513b5-ba73-4a76-968a-057416e3002b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

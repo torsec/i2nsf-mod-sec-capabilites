@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="audit" version="4">
+  <OBJECT>
+    <ID name="audit" mc="Standard.Package" uid="a4e72585-f5d3-4acb-a954-f5f432d76c0b"/>
+    <PID name="report" mc="Standard.Package" uid="b2be5b45-37df-4e20-8e37-026499a21c42"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[audit]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AuditTypeCapability" mc="Standard.Class" uid="ec23964e-d298-4444-bfdd-9372c12e806a"/>
+        <COMPID name="AuditCapability" mc="Standard.Class" uid="33dae1c9-13be-4a54-932d-dc616c8cd215"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="audit Class diagram" mc="Standard.ClassDiagram" uid="9570596f-c94f-485f-ad5a-49ed7164113e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

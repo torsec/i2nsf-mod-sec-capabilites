@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="experimental" version="4">
+  <OBJECT>
+    <ID name="experimental" mc="Standard.Package" uid="9e539aca-bd37-46d9-b314-164eaa776006"/>
+    <PID name="CapabilityDataModelAction" mc="Standard.Package" uid="015e9e09-d3ec-4dfa-8503-26761f63357e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[experimental]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="mirror" mc="Standard.Package" uid="1464ad79-976a-47e5-8905-dad86c0468ea"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

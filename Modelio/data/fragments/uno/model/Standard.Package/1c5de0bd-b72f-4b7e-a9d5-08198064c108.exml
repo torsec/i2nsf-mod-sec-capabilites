@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BaseCapability" version="4">
+  <OBJECT>
+    <ID name="BaseCapability" mc="Standard.Package" uid="1c5de0bd-b72f-4b7e-a9d5-08198064c108"/>
+    <PID name="CapabilityDataModel" mc="Standard.Package" uid="09ca03bd-b2cf-49b5-9c6c-199b1b2d181e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[BaseCapability]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConditionCapability" mc="Standard.Class" uid="97d8cf4d-c5a3-4eb5-8547-6d2b73ab68c3"/>
+        <COMPID name="ActionCapability" mc="Standard.Class" uid="ea46ad96-0af5-4ac6-b4b2-555230dbe6d1"/>
+        <COMPID name="EvaluationCapability" mc="Standard.Class" uid="2913c856-74ec-4b3e-87e2-587af2026e8d"/>
+        <COMPID name="ResolutionStrategyCapability" mc="Standard.Class" uid="7b697f60-aa96-4f06-888e-733d7b77e0ec"/>
+        <COMPID name="DefaultActionCapability" mc="Standard.Class" uid="f084bfc6-a42a-4af6-b60e-d23505affb48"/>
+        <COMPID name="EventCapability" mc="Standard.Class" uid="dadd5f13-62df-4de4-8fa8-5474f7c30233"/>
+        <COMPID name="SecurityCapability" mc="Standard.Class" uid="e1a31117-ec13-4dfe-b423-0e868e0f4fe9"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="base capability model diagram" mc="Standard.ClassDiagram" uid="7f3d9d6e-c4bf-4f60-a03d-7ed3be8e7e16"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

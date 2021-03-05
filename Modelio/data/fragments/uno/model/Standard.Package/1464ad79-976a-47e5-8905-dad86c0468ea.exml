@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="mirror" version="4">
+  <OBJECT>
+    <ID name="mirror" mc="Standard.Package" uid="1464ad79-976a-47e5-8905-dad86c0468ea"/>
+    <PID name="experimental" mc="Standard.Package" uid="9e539aca-bd37-46d9-b314-164eaa776006"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[mirror]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MirrorCapability" mc="Standard.Class" uid="2c0cba1e-61ec-4335-8fd2-35f1fcdb67fe"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="mirror Class diagram" mc="Standard.ClassDiagram" uid="c7442361-824a-4d98-8ae5-b2517b90424b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

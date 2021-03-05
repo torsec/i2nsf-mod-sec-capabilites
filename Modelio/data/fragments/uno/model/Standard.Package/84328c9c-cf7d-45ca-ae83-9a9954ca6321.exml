@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="postrouting" version="4">
+  <OBJECT>
+    <ID name="postrouting" mc="Standard.Package" uid="84328c9c-cf7d-45ca-ae83-9a9954ca6321"/>
+    <PID name="CapabilityModelCondition" mc="Standard.Package" uid="863fd416-2395-4fef-b227-3b143b0e2f67"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[postrouting]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Owner" mc="Standard.Package" uid="67d0ab8a-1ae0-48c6-a49c-de9f2085c3f6"/>
+        <COMPID name="Rateest" mc="Standard.Package" uid="e60badcb-0264-4814-b3c2-c5abe49ee6f9"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

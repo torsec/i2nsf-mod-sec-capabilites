@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_aDhpEdlxEem24oXtgMyMGQ" name="Code" metaclassReference="_aDhpS9lxEem24oXtgMyMGQ _aDhpTNlxEem24oXtgMyMGQ _aDhpTdlxEem24oXtgMyMGQ _aDhpTtlxEem24oXtgMyMGQ _aDhpT9lxEem24oXtgMyMGQ _aDhpUNlxEem24oXtgMyMGQ _aDhpUdlxEem24oXtgMyMGQ _aDhpUtlxEem24oXtgMyMGQ _aDhpU9lxEem24oXtgMyMGQ _aDhpVNlxEem24oXtgMyMGQ">
+  <eAnnotations xmi:id="_aDhpEtlxEem24oXtgMyMGQ" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_aDhpE9lxEem24oXtgMyMGQ" name="Module">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_aDhpFNlxEem24oXtgMyMGQ" value="00000000-0000-2710-0000-000000000000"/>
+    </contents>
+    <contents xmi:type="uml:Property" xmi:id="_aDhpFdlxEem24oXtgMyMGQ" name="ID">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_aDhpFtlxEem24oXtgMyMGQ" value="00300000-0000-0032-0000-000000000000"/>
+    </contents>
+  </eAnnotations>
+  <eAnnotations xmi:id="_aDhpF9lxEem24oXtgMyMGQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_aDhpGNlxEem24oXtgMyMGQ" name="Code" nsURI="http:///schemas/Code/_aDE9INlxEem24oXtgMyMGQ/0" nsPrefix="Code">
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_aDhpGdlxEem24oXtgMyMGQ" name="StandardAssociationEnd">
+        <eAnnotations xmi:id="_aDhpGtlxEem24oXtgMyMGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aDhpVdlxEem24oXtgMyMGQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_aDhpG9lxEem24oXtgMyMGQ" name="base_Property" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Property"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_aDhpHdlxEem24oXtgMyMGQ" name="nocode" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_aDhpH9lxEem24oXtgMyMGQ" name="type" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_aDhpIdlxEem24oXtgMyMGQ" name="StandardAttribute">
+        <eAnnotations xmi:id="_aDhpItlxEem24oXtgMyMGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aDhpadlxEem24oXtgMyMGQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_aDhpI9lxEem24oXtgMyMGQ" name="base_Property" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Property"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_aDhpJdlxEem24oXtgMyMGQ" name="nocode" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_aDhpJ9lxEem24oXtgMyMGQ" name="type" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_aDhpKdlxEem24oXtgMyMGQ" name="StandardGeneralClass">
+        <eAnnotations xmi:id="_aDhpKtlxEem24oXtgMyMGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aDhpfdlxEem24oXtgMyMGQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_aDhpK9lxEem24oXtgMyMGQ" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_aDhpLdlxEem24oXtgMyMGQ" name="nocode" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_aDhpL9lxEem24oXtgMyMGQ" name="StandardOperation">
+        <eAnnotations xmi:id="_aDhpMNlxEem24oXtgMyMGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aDhpi9lxEem24oXtgMyMGQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_aDhpMdlxEem24oXtgMyMGQ" name="base_Operation" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Operation"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_aDhpM9lxEem24oXtgMyMGQ" name="base_Reception" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Reception"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_aDhpNdlxEem24oXtgMyMGQ" name="base_RedefinableTemplateSignature" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//RedefinableTemplateSignature"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_aDhpN9lxEem24oXtgMyMGQ" name="base_TemplateSignature" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//TemplateSignature"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_aDhpOdlxEem24oXtgMyMGQ" name="nocode" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_aDhpO9lxEem24oXtgMyMGQ" name="StandardPackage">
+        <eAnnotations xmi:id="_aDhpPNlxEem24oXtgMyMGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aDhpotlxEem24oXtgMyMGQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_aDhpPdlxEem24oXtgMyMGQ" name="base_Package" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Package"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_aDhpP9lxEem24oXtgMyMGQ" name="nocode" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_aDhpQdlxEem24oXtgMyMGQ" name="StandardParameter">
+        <eAnnotations xmi:id="_aDhpQtlxEem24oXtgMyMGQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aDhpsNlxEem24oXtgMyMGQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_aDhpQ9lxEem24oXtgMyMGQ" name="base_Parameter" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Parameter"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_aDhpRdlxEem24oXtgMyMGQ" name="base_ClassifierTemplateParameter" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//ClassifierTemplateParameter"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_aDhpR9lxEem24oXtgMyMGQ" name="base_OperationTemplateParameter" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//OperationTemplateParameter"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_aDhpSdlxEem24oXtgMyMGQ" name="type" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:id="_aDhpS9lxEem24oXtgMyMGQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+  </elementImport>
+  <elementImport xmi:id="_aDhpTNlxEem24oXtgMyMGQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+  </elementImport>
+  <elementImport xmi:id="_aDhpTdlxEem24oXtgMyMGQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Operation"/>
+  </elementImport>
+  <elementImport xmi:id="_aDhpTtlxEem24oXtgMyMGQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Reception"/>
+  </elementImport>
+  <elementImport xmi:id="_aDhpT9lxEem24oXtgMyMGQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#RedefinableTemplateSignature"/>
+  </elementImport>
+  <elementImport xmi:id="_aDhpUNlxEem24oXtgMyMGQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#TemplateSignature"/>
+  </elementImport>
+  <elementImport xmi:id="_aDhpUdlxEem24oXtgMyMGQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+  </elementImport>
+  <elementImport xmi:id="_aDhpUtlxEem24oXtgMyMGQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Parameter"/>
+  </elementImport>
+  <elementImport xmi:id="_aDhpU9lxEem24oXtgMyMGQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#ClassifierTemplateParameter"/>
+  </elementImport>
+  <elementImport xmi:id="_aDhpVNlxEem24oXtgMyMGQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#OperationTemplateParameter"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_aDhpVdlxEem24oXtgMyMGQ" name="Standard.AssociationEnd">
+    <eAnnotations xmi:id="_aDhpVtlxEem24oXtgMyMGQ" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_aDhpV9lxEem24oXtgMyMGQ" name="ID">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_aDhpWNlxEem24oXtgMyMGQ" value="00bc2f68-0000-0f3a-0000-000000000000"/>
+      </contents>
+      <contents xmi:type="uml:Property" xmi:id="_aDhpWdlxEem24oXtgMyMGQ" name="isReference"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_aDhpWtlxEem24oXtgMyMGQ" name="base_Property" association="_aDhpZ9lxEem24oXtgMyMGQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aDhpW9lxEem24oXtgMyMGQ" name="nocode">
+      <eAnnotations xmi:id="_aDhpXNlxEem24oXtgMyMGQ" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_aDhpXdlxEem24oXtgMyMGQ" name="ID">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aDhpXtlxEem24oXtgMyMGQ" value="00000000-0000-36be-0000-000000000000"/>
+        </contents>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aDhpX9lxEem24oXtgMyMGQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aDhpYNlxEem24oXtgMyMGQ" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aDhpYdlxEem24oXtgMyMGQ" name="type">
+      <eAnnotations xmi:id="_aDhpYtlxEem24oXtgMyMGQ" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_aDhpY9lxEem24oXtgMyMGQ" name="ID">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aDhpZNlxEem24oXtgMyMGQ" value="00000000-0000-3766-0000-000000000000"/>
+        </contents>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aDhpZdlxEem24oXtgMyMGQ" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aDhpZtlxEem24oXtgMyMGQ"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_aDhpZ9lxEem24oXtgMyMGQ" name="Property_Standard.AssociationEnd" memberEnd="_aDhpaNlxEem24oXtgMyMGQ _aDhpWtlxEem24oXtgMyMGQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_aDhpaNlxEem24oXtgMyMGQ" name="extension_Standard.AssociationEnd" type="_aDhpVdlxEem24oXtgMyMGQ" aggregation="composite" association="_aDhpZ9lxEem24oXtgMyMGQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_aDhpadlxEem24oXtgMyMGQ" name="Standard.Attribute">
+    <eAnnotations xmi:id="_aDhpatlxEem24oXtgMyMGQ" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_aDhpa9lxEem24oXtgMyMGQ" name="ID">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_aDhpbNlxEem24oXtgMyMGQ" value="00bc2f68-0000-0f44-0000-000000000000"/>
+      </contents>
+      <contents xmi:type="uml:Property" xmi:id="_aDhpbdlxEem24oXtgMyMGQ" name="isReference"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_aDhpbtlxEem24oXtgMyMGQ" name="base_Property" association="_aDhpe9lxEem24oXtgMyMGQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aDhpb9lxEem24oXtgMyMGQ" name="nocode">
+      <eAnnotations xmi:id="_aDhpcNlxEem24oXtgMyMGQ" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_aDhpcdlxEem24oXtgMyMGQ" name="ID">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aDhpctlxEem24oXtgMyMGQ" value="00000000-0000-36bb-0000-000000000000"/>
+        </contents>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aDhpc9lxEem24oXtgMyMGQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aDhpdNlxEem24oXtgMyMGQ" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aDhpddlxEem24oXtgMyMGQ" name="type">
+      <eAnnotations xmi:id="_aDhpdtlxEem24oXtgMyMGQ" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_aDhpd9lxEem24oXtgMyMGQ" name="ID">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aDhpeNlxEem24oXtgMyMGQ" value="00000000-0000-3765-0000-000000000000"/>
+        </contents>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aDhpedlxEem24oXtgMyMGQ" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aDhpetlxEem24oXtgMyMGQ"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_aDhpe9lxEem24oXtgMyMGQ" name="Property_Standard.Attribute" memberEnd="_aDhpfNlxEem24oXtgMyMGQ _aDhpbtlxEem24oXtgMyMGQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_aDhpfNlxEem24oXtgMyMGQ" name="extension_Standard.Attribute" type="_aDhpadlxEem24oXtgMyMGQ" aggregation="composite" association="_aDhpe9lxEem24oXtgMyMGQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_aDhpfdlxEem24oXtgMyMGQ" name="Standard.GeneralClass">
+    <eAnnotations xmi:id="_aDhpftlxEem24oXtgMyMGQ" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_aDhpf9lxEem24oXtgMyMGQ" name="ID">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_aDhpgNlxEem24oXtgMyMGQ" value="00bc2f68-0000-0f51-0000-000000000000"/>
+      </contents>
+      <contents xmi:type="uml:Property" xmi:id="_aDhpgdlxEem24oXtgMyMGQ" name="isReference"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_aDhpgtlxEem24oXtgMyMGQ" name="base_Element" association="_aDhpidlxEem24oXtgMyMGQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aDhpg9lxEem24oXtgMyMGQ" name="nocode">
+      <eAnnotations xmi:id="_aDhphNlxEem24oXtgMyMGQ" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_aDhphdlxEem24oXtgMyMGQ" name="ID">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aDhphtlxEem24oXtgMyMGQ" value="00000000-0000-36bc-0000-000000000000"/>
+        </contents>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aDhph9lxEem24oXtgMyMGQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aDhpiNlxEem24oXtgMyMGQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_aDhpidlxEem24oXtgMyMGQ" name="Element_Standard.GeneralClass" memberEnd="_aDhpitlxEem24oXtgMyMGQ _aDhpgtlxEem24oXtgMyMGQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_aDhpitlxEem24oXtgMyMGQ" name="extension_Standard.GeneralClass" type="_aDhpfdlxEem24oXtgMyMGQ" aggregation="composite" association="_aDhpidlxEem24oXtgMyMGQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_aDhpi9lxEem24oXtgMyMGQ" name="Standard.Operation">
+    <eAnnotations xmi:id="_aDhpjNlxEem24oXtgMyMGQ" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_aDhpjdlxEem24oXtgMyMGQ" name="ID">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_aDhpjtlxEem24oXtgMyMGQ" value="00bc2f68-0000-0fa9-0000-000000000000"/>
+      </contents>
+      <contents xmi:type="uml:Property" xmi:id="_aDhpj9lxEem24oXtgMyMGQ" name="isReference"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_aDhpkNlxEem24oXtgMyMGQ" name="base_Operation" association="_aDhpmtlxEem24oXtgMyMGQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Operation"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aDhpkdlxEem24oXtgMyMGQ" name="base_Reception" association="_aDhpnNlxEem24oXtgMyMGQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Reception"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aDhpktlxEem24oXtgMyMGQ" name="base_RedefinableTemplateSignature" association="_aDhpntlxEem24oXtgMyMGQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#RedefinableTemplateSignature"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aDhpk9lxEem24oXtgMyMGQ" name="base_TemplateSignature" association="_aDhpoNlxEem24oXtgMyMGQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#TemplateSignature"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aDhplNlxEem24oXtgMyMGQ" name="nocode">
+      <eAnnotations xmi:id="_aDhpldlxEem24oXtgMyMGQ" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_aDhpltlxEem24oXtgMyMGQ" name="ID">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aDhpl9lxEem24oXtgMyMGQ" value="00000000-0000-36bd-0000-000000000000"/>
+        </contents>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aDhpmNlxEem24oXtgMyMGQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aDhpmdlxEem24oXtgMyMGQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_aDhpmtlxEem24oXtgMyMGQ" name="Operation_Standard.Operation" memberEnd="_aDhpm9lxEem24oXtgMyMGQ _aDhpkNlxEem24oXtgMyMGQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_aDhpm9lxEem24oXtgMyMGQ" name="extension_Standard.Operation" type="_aDhpi9lxEem24oXtgMyMGQ" aggregation="composite" association="_aDhpmtlxEem24oXtgMyMGQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_aDhpnNlxEem24oXtgMyMGQ" name="Reception_Standard.Operation" memberEnd="_aDhpndlxEem24oXtgMyMGQ _aDhpkdlxEem24oXtgMyMGQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_aDhpndlxEem24oXtgMyMGQ" name="extension_Standard.Operation" type="_aDhpi9lxEem24oXtgMyMGQ" aggregation="composite" association="_aDhpnNlxEem24oXtgMyMGQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_aDhpntlxEem24oXtgMyMGQ" name="RedefinableTemplateSignature_Standard.Operation" memberEnd="_aDhpn9lxEem24oXtgMyMGQ _aDhpktlxEem24oXtgMyMGQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_aDhpn9lxEem24oXtgMyMGQ" name="extension_Standard.Operation" type="_aDhpi9lxEem24oXtgMyMGQ" aggregation="composite" association="_aDhpntlxEem24oXtgMyMGQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_aDhpoNlxEem24oXtgMyMGQ" name="TemplateSignature_Standard.Operation" memberEnd="_aDhpodlxEem24oXtgMyMGQ _aDhpk9lxEem24oXtgMyMGQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_aDhpodlxEem24oXtgMyMGQ" name="extension_Standard.Operation" type="_aDhpi9lxEem24oXtgMyMGQ" aggregation="composite" association="_aDhpoNlxEem24oXtgMyMGQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_aDhpotlxEem24oXtgMyMGQ" name="Standard.Package">
+    <eAnnotations xmi:id="_aDhpo9lxEem24oXtgMyMGQ" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_aDhppNlxEem24oXtgMyMGQ" name="ID">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_aDhppdlxEem24oXtgMyMGQ" value="00bc2f68-0000-0faf-0000-000000000000"/>
+      </contents>
+      <contents xmi:type="uml:Property" xmi:id="_aDhpptlxEem24oXtgMyMGQ" name="isReference"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_aDhpp9lxEem24oXtgMyMGQ" name="base_Package" association="_aDhprtlxEem24oXtgMyMGQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aDhpqNlxEem24oXtgMyMGQ" name="nocode">
+      <eAnnotations xmi:id="_aDhpqdlxEem24oXtgMyMGQ" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_aDhpqtlxEem24oXtgMyMGQ" name="ID">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aDhpq9lxEem24oXtgMyMGQ" value="00000000-0000-36bf-0000-000000000000"/>
+        </contents>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aDhprNlxEem24oXtgMyMGQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aDhprdlxEem24oXtgMyMGQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_aDhprtlxEem24oXtgMyMGQ" name="Package_Standard.Package" memberEnd="_aDhpr9lxEem24oXtgMyMGQ _aDhpp9lxEem24oXtgMyMGQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_aDhpr9lxEem24oXtgMyMGQ" name="extension_Standard.Package" type="_aDhpotlxEem24oXtgMyMGQ" aggregation="composite" association="_aDhprtlxEem24oXtgMyMGQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_aDhpsNlxEem24oXtgMyMGQ" name="Standard.Parameter">
+    <eAnnotations xmi:id="_aDhpsdlxEem24oXtgMyMGQ" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_aDhpstlxEem24oXtgMyMGQ" name="ID">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_aDhps9lxEem24oXtgMyMGQ" value="00bc2f68-0000-0fc2-0000-000000000000"/>
+      </contents>
+      <contents xmi:type="uml:Property" xmi:id="_aDhptNlxEem24oXtgMyMGQ" name="isReference"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_aDhptdlxEem24oXtgMyMGQ" name="base_Parameter" association="_aDhpvtlxEem24oXtgMyMGQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Parameter"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aDhpttlxEem24oXtgMyMGQ" name="base_ClassifierTemplateParameter" association="_aDhpwNlxEem24oXtgMyMGQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#ClassifierTemplateParameter"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aDhpt9lxEem24oXtgMyMGQ" name="base_OperationTemplateParameter" association="_aDhpwtlxEem24oXtgMyMGQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#OperationTemplateParameter"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_aDhpuNlxEem24oXtgMyMGQ" name="type">
+      <eAnnotations xmi:id="_aDhpudlxEem24oXtgMyMGQ" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_aDhputlxEem24oXtgMyMGQ" name="ID">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aDhpu9lxEem24oXtgMyMGQ" value="00000000-0000-3767-0000-000000000000"/>
+        </contents>
+      </eAnnotations>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aDhpvNlxEem24oXtgMyMGQ" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aDhpvdlxEem24oXtgMyMGQ"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_aDhpvtlxEem24oXtgMyMGQ" name="Parameter_Standard.Parameter" memberEnd="_aDhpv9lxEem24oXtgMyMGQ _aDhptdlxEem24oXtgMyMGQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_aDhpv9lxEem24oXtgMyMGQ" name="extension_Standard.Parameter" type="_aDhpsNlxEem24oXtgMyMGQ" aggregation="composite" association="_aDhpvtlxEem24oXtgMyMGQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_aDhpwNlxEem24oXtgMyMGQ" name="ClassifierTemplateParameter_Standard.Parameter" memberEnd="_aDhpwdlxEem24oXtgMyMGQ _aDhpttlxEem24oXtgMyMGQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_aDhpwdlxEem24oXtgMyMGQ" name="extension_Standard.Parameter" type="_aDhpsNlxEem24oXtgMyMGQ" aggregation="composite" association="_aDhpwNlxEem24oXtgMyMGQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_aDhpwtlxEem24oXtgMyMGQ" name="OperationTemplateParameter_Standard.Parameter" memberEnd="_aDhpw9lxEem24oXtgMyMGQ _aDhpt9lxEem24oXtgMyMGQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_aDhpw9lxEem24oXtgMyMGQ" name="extension_Standard.Parameter" type="_aDhpsNlxEem24oXtgMyMGQ" aggregation="composite" association="_aDhpwtlxEem24oXtgMyMGQ"/>
+  </packagedElement>
+</uml:Profile>

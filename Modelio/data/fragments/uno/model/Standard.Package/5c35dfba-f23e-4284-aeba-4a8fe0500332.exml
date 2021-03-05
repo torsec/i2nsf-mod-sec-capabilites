@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="stateful" version="4">
+  <OBJECT>
+    <ID name="stateful" mc="Standard.Package" uid="5c35dfba-f23e-4284-aeba-4a8fe0500332"/>
+    <PID name="CapabilityDataModelAction" mc="Standard.Package" uid="015e9e09-d3ec-4dfa-8503-26761f63357e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[stateful]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="connmark" mc="Standard.Package" uid="faf56f45-85c1-4916-bdd7-4de63ca29fd4"/>
+        <COMPID name="connsecmark" mc="Standard.Package" uid="0fae66fe-6a1a-4412-bda2-4ecb73f688f8"/>
+        <COMPID name="ct" mc="Standard.Package" uid="3ca497a3-78bd-4d11-a6ad-927b65731b84"/>
+        <COMPID name="hmark" mc="Standard.Package" uid="1adb9075-1ebc-4590-bc6a-111ffe748989"/>
+        <COMPID name="idletimer" mc="Standard.Package" uid="5bc32e33-2447-436d-8d34-b3d9440cac63"/>
+        <COMPID name="mark" mc="Standard.Package" uid="93f867cd-17d9-4a78-9451-b3318fda1f27"/>
+        <COMPID name="notrack" mc="Standard.Package" uid="a2438f4e-7ed5-4b12-a14d-48454d2a5fdd"/>
+        <COMPID name="reteest" mc="Standard.Package" uid="2224f2f5-ed66-445e-b53f-f50c5b64356e"/>
+        <COMPID name="secmark" mc="Standard.Package" uid="f653bf92-b725-40db-b66f-15a2a0934b71"/>
+        <COMPID name="set" mc="Standard.Package" uid="9a772e33-4f3a-4b82-b1cb-0a4b5721352d"/>
+        <COMPID name="trace" mc="Standard.Package" uid="ba707a29-811d-4680-b9f7-5215b063bd8d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

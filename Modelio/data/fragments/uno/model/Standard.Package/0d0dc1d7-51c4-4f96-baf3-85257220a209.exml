@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="snpt" version="4">
+  <OBJECT>
+    <ID name="snpt" mc="Standard.Package" uid="0d0dc1d7-51c4-4f96-baf3-85257220a209"/>
+    <PID name="packetModify" mc="Standard.Package" uid="47b14d3b-fda7-43ce-a2b2-d66e211613c9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[snpt]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SnptCapability" mc="Standard.Class" uid="ae79c2b7-31c5-4a1d-b619-accada779d31"/>
+        <COMPID name="SnptSrcPfx" mc="Standard.Class" uid="7b192e80-1dc6-4f39-accf-6450fe98810b"/>
+        <COMPID name="SnptDstPfx" mc="Standard.Class" uid="3d8a7b13-a636-4bb0-948c-a964f829d4cb"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="snpt Class diagram" mc="Standard.ClassDiagram" uid="850849ff-f9e5-4648-a7a2-d2a77106597b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

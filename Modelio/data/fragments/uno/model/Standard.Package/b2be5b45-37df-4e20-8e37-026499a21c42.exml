@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="report" version="4">
+  <OBJECT>
+    <ID name="report" mc="Standard.Package" uid="b2be5b45-37df-4e20-8e37-026499a21c42"/>
+    <PID name="CapabilityDataModelAction" mc="Standard.Package" uid="015e9e09-d3ec-4dfa-8503-26761f63357e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[report]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="audit" mc="Standard.Package" uid="a4e72585-f5d3-4acb-a954-f5f432d76c0b"/>
+        <COMPID name="led" mc="Standard.Package" uid="79796370-8972-419a-b57e-25378a440c31"/>
+        <COMPID name="log" mc="Standard.Package" uid="fe53836e-9fa7-4cf9-bbe1-fd1134f3659d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

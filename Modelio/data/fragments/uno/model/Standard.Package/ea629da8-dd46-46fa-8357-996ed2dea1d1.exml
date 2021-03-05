@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Limit" version="4">
+  <OBJECT>
+    <ID name="Limit" mc="Standard.Package" uid="ea629da8-dd46-46fa-8357-996ed2dea1d1"/>
+    <PID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Limit]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="LimitBaseCapability" mc="Standard.Class" uid="237e4dd7-4d81-4bdd-b810-71f14af2b42a"/>
+        <COMPID name="LimitCapability" mc="Standard.Class" uid="7a4db912-6cd4-42ba-9201-cf4c347b6269"/>
+        <COMPID name="LimitBurstCapability" mc="Standard.Class" uid="1b28406d-c37b-482e-8fbc-cb9f3973bae8"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Limit Class diagram" mc="Standard.ClassDiagram" uid="6788bb68-2526-43f4-9b22-e0870a9c0042"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

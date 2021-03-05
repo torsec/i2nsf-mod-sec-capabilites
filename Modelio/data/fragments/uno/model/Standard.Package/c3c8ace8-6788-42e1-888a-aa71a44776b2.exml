@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="same" version="4">
+  <OBJECT>
+    <ID name="same" mc="Standard.Package" uid="c3c8ace8-6788-42e1-888a-aa71a44776b2"/>
+    <PID name="packetModify" mc="Standard.Package" uid="47b14d3b-fda7-43ce-a2b2-d66e211613c9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[same]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SameCapability" mc="Standard.Class" uid="39447c43-ca0a-459a-af8d-a6d52abd9c9c"/>
+        <COMPID name="SameToCapability" mc="Standard.Class" uid="e4da2b00-1e8c-4961-8e1d-db7ec75d2d30"/>
+        <COMPID name="SameNodestCapability" mc="Standard.Class" uid="636ccca6-2168-4672-92b8-9305c42d7bb1"/>
+        <COMPID name="SameRandomCapability" mc="Standard.Class" uid="a9e8a140-fa03-4482-81d5-ba1274f90605"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="same Class diagram" mc="Standard.ClassDiagram" uid="ed640457-55f5-4826-84a4-2dca9fe8f255"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

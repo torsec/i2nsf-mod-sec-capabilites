@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Cgroup" version="4">
+  <OBJECT>
+    <ID name="Cgroup" mc="Standard.Package" uid="34f53f29-8cd2-4eb3-a4e6-c11443ce62c0"/>
+    <PID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Cgroup]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CgroupCapability" mc="Standard.Class" uid="f7d0989f-22eb-4271-9bb1-743a0f5d6a35"/>
+        <COMPID name="CgroupClassCapability" mc="Standard.Class" uid="d451a4fa-d421-4486-a7ee-57b3d19ce74c"/>
+        <COMPID name="CgroupPathCapability" mc="Standard.Class" uid="02c9d135-694b-43f6-ba0f-42cc97319fcf"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Cgroup Class diagram" mc="Standard.ClassDiagram" uid="5eccbbd5-4547-431c-a19b-98a46f6bea2f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

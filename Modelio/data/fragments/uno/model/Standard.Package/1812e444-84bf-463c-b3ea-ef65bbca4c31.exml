@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Statistic" version="4">
+  <OBJECT>
+    <ID name="Statistic" mc="Standard.Package" uid="1812e444-84bf-463c-b3ea-ef65bbca4c31"/>
+    <PID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Statistic]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="StatisticCapability" mc="Standard.Class" uid="4e8615e1-5889-4e68-85be-7056f9fa796a"/>
+        <COMPID name="StatisticModeCapability" mc="Standard.Class" uid="de39f4a1-08a2-4195-84ce-c2427b800450"/>
+        <COMPID name="StatisticProbabilityCapability" mc="Standard.Class" uid="71842403-a8a9-4a21-b57b-324a38831c0c"/>
+        <COMPID name="SatisticEveryCapability" mc="Standard.Class" uid="33a27231-b491-4058-9852-1a04f0b22c08"/>
+        <COMPID name="StatisticPacketCapability" mc="Standard.Class" uid="e870e057-2903-41dc-a3a7-10c92e020f5a"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Statistic Class diagram" mc="Standard.ClassDiagram" uid="c89f0494-5b05-4c6e-bb5b-10173cad951e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

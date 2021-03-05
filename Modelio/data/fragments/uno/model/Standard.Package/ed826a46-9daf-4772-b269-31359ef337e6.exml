@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="classify" version="4">
+  <OBJECT>
+    <ID name="classify" mc="Standard.Package" uid="ed826a46-9daf-4772-b269-31359ef337e6"/>
+    <PID name="packetModify" mc="Standard.Package" uid="47b14d3b-fda7-43ce-a2b2-d66e211613c9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[classify]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ClassifyCapability" mc="Standard.Class" uid="8f0f8bad-9c7f-4c64-a6f9-e064fdb53b93"/>
+        <COMPID name="SetClassCapability" mc="Standard.Class" uid="0aed80d1-6783-4015-a1b6-c912aa733cb1"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="classify Class diagram" mc="Standard.ClassDiagram" uid="a961434b-ec3e-4698-b4a9-e0d633337c43"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

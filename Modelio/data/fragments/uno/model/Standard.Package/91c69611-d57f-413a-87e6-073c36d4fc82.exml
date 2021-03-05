@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Bpf" version="4">
+  <OBJECT>
+    <ID name="Bpf" mc="Standard.Package" uid="91c69611-d57f-413a-87e6-073c36d4fc82"/>
+    <PID name="programming" mc="Standard.Package" uid="86449973-49dd-4ff5-b881-dd70a31bd66b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Bpf]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BpfCapability" mc="Standard.Class" uid="54369071-9033-4795-88db-f2ea7d65c81b"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="bpf" mc="Standard.ClassDiagram" uid="6821dfc9-89e7-437a-8383-0aa972bf7de8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

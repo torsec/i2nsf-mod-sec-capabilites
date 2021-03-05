@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Time" version="4">
+  <OBJECT>
+    <ID name="Time" mc="Standard.Package" uid="8fa42dd2-e867-4308-be40-100189daae82"/>
+    <PID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Time]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TimeCapability" mc="Standard.Class" uid="862ad2f9-4627-4acb-909e-23c1b4b0224a"/>
+        <COMPID name="DateStartCapability" mc="Standard.Class" uid="4dfecc5b-3337-4bdb-b849-c13c7ca87341"/>
+        <COMPID name="DateStopCapability" mc="Standard.Class" uid="2987c8b4-7c72-46fc-807f-a526c1b385b8"/>
+        <COMPID name="TimeStopCapability" mc="Standard.Class" uid="375c7fd8-3706-4460-b3b3-16e93d0da775"/>
+        <COMPID name="MonthDayCapability" mc="Standard.Class" uid="0f193b19-91e4-4fa2-aa93-8c716694c707"/>
+        <COMPID name="WeekDayCapability" mc="Standard.Class" uid="deacc2d5-6bf2-49c9-8603-4703e88d8a62"/>
+        <COMPID name="ContiguousCapability" mc="Standard.Class" uid="6048a7d6-415b-466b-9760-e1515dbdd9dc"/>
+        <COMPID name="TimeStartCapability" mc="Standard.Class" uid="02244faa-d849-41af-8955-a84483fd2195"/>
+        <COMPID name="KerneltzCapability" mc="Standard.Class" uid="670c3027-d8b0-4221-b225-6040ff6762b4"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Time Class diagram" mc="Standard.ClassDiagram" uid="deee202a-4a9a-4a58-b764-779dc323de68"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

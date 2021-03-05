@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Ipsec" version="4">
+  <OBJECT>
+    <ID name="Ipsec" mc="Standard.Package" uid="06ba64cf-d490-4a9e-bbc9-2b5b9cff2326"/>
+    <PID name="protocol" mc="Standard.Package" uid="782cc679-76d0-452b-8192-81e97c4e33f6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Ipsec]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="PolicyCapability" mc="Standard.Class" uid="7ca2ad69-6d34-40cf-8f1f-4976f6f2e00a"/>
+        <COMPID name="PolicyDirCapability" mc="Standard.Class" uid="d0cc1134-9586-43d4-9b74-d77eec856360"/>
+        <COMPID name="PolicyPolCapability" mc="Standard.Class" uid="fa8002f5-c6c6-455c-9c89-f9eff761513c"/>
+        <COMPID name="PolicyStrctCapability" mc="Standard.Class" uid="a18dc600-93ea-4bc6-bc3d-e8679a4b5c5c"/>
+        <COMPID name="PolicyReqidCapability" mc="Standard.Class" uid="ab9e80cf-1f19-40e4-adb3-1227ba4f9d3f"/>
+        <COMPID name="PolicySpiCapability" mc="Standard.Class" uid="0c459fa8-8635-42cc-a570-a94c9c0f053d"/>
+        <COMPID name="PolicyModeCapability" mc="Standard.Class" uid="ffa1f291-6fda-458d-8c8d-3cef01857dba"/>
+        <COMPID name="PolicyTunnelSrcCapability" mc="Standard.Class" uid="ce0fdc74-3b41-4c49-8087-7d483db20c35"/>
+        <COMPID name="PolicyTunnelDstCapability" mc="Standard.Class" uid="40cf1a75-61cd-4bd0-943e-5c0a5a66fb41"/>
+        <COMPID name="PolicyProtoCapability" mc="Standard.Class" uid="7d68ea89-8d17-4a9b-8480-68ccea46c47d"/>
+        <COMPID name="PolicyNextCapability" mc="Standard.Class" uid="2f5d5fb3-366c-4528-bf4c-022f2e79a8f4"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Ipsec Class diagram" mc="Standard.ClassDiagram" uid="ffa08dc3-fd2e-4237-b7a8-d09393f3b438"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

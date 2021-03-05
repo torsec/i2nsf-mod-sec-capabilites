@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Osf" version="4">
+  <OBJECT>
+    <ID name="Osf" mc="Standard.Package" uid="756578f3-91e0-429b-a18c-262e2d5951e5"/>
+    <PID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Osf]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="OsfCapability" mc="Standard.Class" uid="770648e7-5fa8-45d6-a5a2-d2b939933d7b"/>
+        <COMPID name="OsfGenreCapability" mc="Standard.Class" uid="0049bfb7-be0d-4f36-893f-4bffafa87463"/>
+        <COMPID name="OsfTtlCapability" mc="Standard.Class" uid="84705ae6-417d-41ce-8b54-a38ba9d5b727"/>
+        <COMPID name="OsfLogCapability" mc="Standard.Class" uid="9c9c4c85-9d07-45ca-9f5b-9075bbb0a4ee"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Osf Class diagram" mc="Standard.ClassDiagram" uid="d5feea4a-5851-4abd-8292-d908848a0f86"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

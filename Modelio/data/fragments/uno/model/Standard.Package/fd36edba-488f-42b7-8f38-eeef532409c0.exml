@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dnat" version="4">
+  <OBJECT>
+    <ID name="dnat" mc="Standard.Package" uid="fd36edba-488f-42b7-8f38-eeef532409c0"/>
+    <PID name="packetManagement" mc="Standard.Package" uid="b1192f95-53bc-47db-a535-fc9bd157d3d7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dnat]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DnatCapability" mc="Standard.Class" uid="c3a29169-2925-40c7-b7a7-b06768f90794"/>
+        <COMPID name="DnatRandomCapability" mc="Standard.Class" uid="81e4e9b6-c4a1-4151-bc8b-b2ca72c86005"/>
+        <COMPID name="PersistentCapability" mc="Standard.Class" uid="292d590e-e63b-4b0b-a506-dbb9bf90c341"/>
+        <COMPID name="TodestinationCapability" mc="Standard.Class" uid="6eb3529e-05e3-4e7b-b776-24111326ab0c"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="dnat Class diagram" mc="Standard.ClassDiagram" uid="342c43cd-9455-40c6-9771-9b7f661a9ea5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

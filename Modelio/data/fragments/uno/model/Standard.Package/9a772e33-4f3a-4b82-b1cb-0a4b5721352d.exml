@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="set" version="4">
+  <OBJECT>
+    <ID name="set" mc="Standard.Package" uid="9a772e33-4f3a-4b82-b1cb-0a4b5721352d"/>
+    <PID name="stateful" mc="Standard.Package" uid="5c35dfba-f23e-4284-aeba-4a8fe0500332"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[set]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SetActionCapability" mc="Standard.Class" uid="519dbcab-3a23-4607-b967-377e80384469"/>
+        <COMPID name="SetAddCapability" mc="Standard.Class" uid="9f0eedd0-0682-4062-bd27-25e4896a5c87"/>
+        <COMPID name="SetDelCapability" mc="Standard.Class" uid="578307b8-ed34-488a-b7a8-ed2bbc01c1d3"/>
+        <COMPID name="SetTimeoutCapability" mc="Standard.Class" uid="11d5d515-8e6b-4555-9989-852cf7b6aefc"/>
+        <COMPID name="SetExistCapability" mc="Standard.Class" uid="3d6eda66-bd66-4dba-a35d-803e4fc91705"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="set Class diagram" mc="Standard.ClassDiagram" uid="d1149953-3149-4013-abde-516ed1f9f612"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

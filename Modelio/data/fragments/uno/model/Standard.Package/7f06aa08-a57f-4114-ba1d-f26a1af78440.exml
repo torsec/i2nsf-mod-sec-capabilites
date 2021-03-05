@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tee" version="4">
+  <OBJECT>
+    <ID name="tee" mc="Standard.Package" uid="7f06aa08-a57f-4114-ba1d-f26a1af78440"/>
+    <PID name="packetManagement" mc="Standard.Package" uid="b1192f95-53bc-47db-a535-fc9bd157d3d7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tee]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TeeCapability" mc="Standard.Class" uid="7ad4d200-182f-46d0-8c7c-6f6d7b08ca90"/>
+        <COMPID name="TeeGatewayCapability" mc="Standard.Class" uid="235260e7-26d5-4108-acae-79d6e79a1066"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="tee Class diagram" mc="Standard.ClassDiagram" uid="ecffa43b-3bb9-48b3-aeb0-38575b415fe4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

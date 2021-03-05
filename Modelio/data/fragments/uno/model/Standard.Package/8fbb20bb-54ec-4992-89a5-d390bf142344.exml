@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="prerouting" version="4">
+  <OBJECT>
+    <ID name="prerouting" mc="Standard.Package" uid="8fbb20bb-54ec-4992-89a5-d390bf142344"/>
+    <PID name="CapabilityModelCondition" mc="Standard.Package" uid="863fd416-2395-4fef-b227-3b143b0e2f67"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[prerouting]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CpuBaseCapability" mc="Standard.Class" uid="1b12d7cc-6560-43d6-b82d-60b89cbded7e"/>
+        <COMPID name="CpuCapability" mc="Standard.Class" uid="b82ce81f-1e95-4797-95bb-6bb318ca8f07"/>
+        <COMPID name="Rpfilter" mc="Standard.Package" uid="d0477553-fd35-488d-96ea-4afbf6c4398e"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="prerouting Class diagram" mc="Standard.ClassDiagram" uid="402eb557-9bbd-43de-b309-11f6a5469362"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

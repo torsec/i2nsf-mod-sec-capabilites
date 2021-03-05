@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="mark" version="4">
+  <OBJECT>
+    <ID name="mark" mc="Standard.Package" uid="93f867cd-17d9-4a78-9451-b3318fda1f27"/>
+    <PID name="stateful" mc="Standard.Package" uid="5c35dfba-f23e-4284-aeba-4a8fe0500332"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[mark]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MarkActionCapability" mc="Standard.Class" uid="47efb015-d821-43bb-9294-3f352def506a"/>
+        <COMPID name="MarkSetxmarkCapability" mc="Standard.Class" uid="f30812df-dd3f-4506-af13-416999349069"/>
+        <COMPID name="MarkSetMarkCapability" mc="Standard.Class" uid="61758811-6129-4248-bbd3-26c2d997ba75"/>
+        <COMPID name="MarkBitCapability" mc="Standard.Class" uid="f5a69a36-1150-403b-b7dc-085c10ac001b"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="mark Class diagram" mc="Standard.ClassDiagram" uid="e3be6f81-748b-4be7-b798-b8f4fd330e88"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

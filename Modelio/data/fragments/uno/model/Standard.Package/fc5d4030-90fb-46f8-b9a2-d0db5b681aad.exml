@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Comment" version="4">
+  <OBJECT>
+    <ID name="Comment" mc="Standard.Package" uid="fc5d4030-90fb-46f8-b9a2-d0db5b681aad"/>
+    <PID name="other" mc="Standard.Package" uid="eb81be9d-28f0-45a7-9692-414c470eb067"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Comment]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommentCapability" mc="Standard.Class" uid="e134c876-b093-482a-bee8-539740b2bc0b"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Comment Class diagram" mc="Standard.ClassDiagram" uid="0d1fa460-f07e-4a48-bda8-9ad83eb94f1c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

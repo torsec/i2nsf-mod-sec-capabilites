@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="protocol" version="4">
+  <OBJECT>
+    <ID name="protocol" mc="Standard.Package" uid="782cc679-76d0-452b-8192-81e97c4e33f6"/>
+    <PID name="CapabilityModelCondition" mc="Standard.Package" uid="863fd416-2395-4fef-b227-3b143b0e2f67"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[protocol]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Ah" mc="Standard.Package" uid="14949865-4a46-4525-ade2-4392ce530d9b"/>
+        <COMPID name="Dccp" mc="Standard.Package" uid="e1e29bd0-2c9a-46c8-b069-2030dd885292"/>
+        <COMPID name="Esp" mc="Standard.Package" uid="56b16d37-41b8-426b-9c1e-cc2c9cf0a1f3"/>
+        <COMPID name="Icmp" mc="Standard.Package" uid="17474eb9-86c8-4306-b585-5b2c6e498e17"/>
+        <COMPID name="Ipsec" mc="Standard.Package" uid="06ba64cf-d490-4a9e-bbc9-2b5b9cff2326"/>
+        <COMPID name="Ipv4" mc="Standard.Package" uid="2bdd5bef-44be-434f-b0b4-1fdd98d53b8a"/>
+        <COMPID name="Ipv6" mc="Standard.Package" uid="b4db4999-5765-4e30-a4d8-6eadfee277c7"/>
+        <COMPID name="LayerCondition" mc="Standard.Package" uid="e99d70a2-210d-4d90-84fe-005ae49cecc5"/>
+        <COMPID name="Mac" mc="Standard.Package" uid="06506640-852f-4ca4-bdbb-b13367624e12"/>
+        <COMPID name="Mh" mc="Standard.Package" uid="2f39534b-b361-48a2-8c80-eef28e4bfa47"/>
+        <COMPID name="Sctp" mc="Standard.Package" uid="f3df292f-7aa1-40fa-96b4-30eab492f61c"/>
+        <COMPID name="Tcp" mc="Standard.Package" uid="a79aa2ca-459c-4f19-85b7-75318b08571c"/>
+        <COMPID name="Udp" mc="Standard.Package" uid="5d78b773-6d8b-469f-b705-95e5e40b4118"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

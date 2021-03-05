@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="idletimer" version="4">
+  <OBJECT>
+    <ID name="idletimer" mc="Standard.Package" uid="5bc32e33-2447-436d-8d34-b3d9440cac63"/>
+    <PID name="stateful" mc="Standard.Package" uid="5c35dfba-f23e-4284-aeba-4a8fe0500332"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[idletimer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IdletimerCapability" mc="Standard.Class" uid="eb63b152-1b28-4ee1-80e8-632794ff7f3c"/>
+        <COMPID name="IdletimerLabelCapability" mc="Standard.Class" uid="120fde2b-e3a4-4b65-91c1-ab8d03c67a7e"/>
+        <COMPID name="IdletimerTimeoutCapability" mc="Standard.Class" uid="cfda57b6-cf63-4c58-a13a-d0a20d611038"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="idletimer Class diagram" mc="Standard.ClassDiagram" uid="7b97e7d4-6969-4699-8bad-3a82c3838cb0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

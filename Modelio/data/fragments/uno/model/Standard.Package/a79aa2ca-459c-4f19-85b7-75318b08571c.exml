@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Tcp" version="4">
+  <OBJECT>
+    <ID name="Tcp" mc="Standard.Package" uid="a79aa2ca-459c-4f19-85b7-75318b08571c"/>
+    <PID name="protocol" mc="Standard.Package" uid="782cc679-76d0-452b-8192-81e97c4e33f6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Tcp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TcpCapability" mc="Standard.Class" uid="f79ee4e9-0f32-4413-ba9e-c61f83a86841"/>
+        <COMPID name="TcpSourcePortCapability" mc="Standard.Class" uid="05025e78-75a7-49b4-b884-8adfe506f83f"/>
+        <COMPID name="TcpDestinaitonPortCapability" mc="Standard.Class" uid="cdaf25a5-e98b-48eb-bd30-56cee9f3d0e3"/>
+        <COMPID name="TcpSequenceNumberCapability" mc="Standard.Class" uid="a9f5eff1-36c8-42f0-9a00-d58a5386c1ce"/>
+        <COMPID name="TcpAcknowledgmentNumberCapability" mc="Standard.Class" uid="018ed3e4-eec6-4b33-bd2b-9015dc540bfb"/>
+        <COMPID name="TcpWindowsSizeCapability" mc="Standard.Class" uid="75e61f9f-a576-41ef-8c85-d761911c29e3"/>
+        <COMPID name="TcpFlagsCapability" mc="Standard.Class" uid="6ecc71c9-43f3-4acc-97ae-2e48224d7bf0"/>
+        <COMPID name="TcpDataOffsetCapability" mc="Standard.Class" uid="d09e2c27-d3a2-4491-a1be-da2c49f07fa1"/>
+        <COMPID name="TcpChecksumCapability" mc="Standard.Class" uid="b19dbb7e-0f9a-4fb1-a891-11f7a95b7a0c"/>
+        <COMPID name="TcpUrgentPointerCapability" mc="Standard.Class" uid="03c1f7be-4a3a-4e7b-a7b1-c5d03b4b127e"/>
+        <COMPID name="TcpSegmentSizeCapability" mc="Standard.Class" uid="6d385dd0-6fdc-4fdf-8e61-fb1d466a3748"/>
+        <COMPID name="EcnTcpCapability" mc="Standard.Class" uid="9d75b38b-a743-489d-8888-e7d2f37f363b"/>
+        <COMPID name="EcnTcpEceCapability" mc="Standard.Class" uid="1d960025-56e0-45b2-adea-dce30c97a4b4"/>
+        <COMPID name="EcnTcpCwrCapability" mc="Standard.Class" uid="454eba8b-bae4-458c-9071-7095b5b2c437"/>
+        <COMPID name="TcpMultiPortsCapability" mc="Standard.Class" uid="cf3226bc-4785-4aa6-85a8-2f48d259abdb"/>
+        <COMPID name="TcpMultiSurcePortCapability" mc="Standard.Class" uid="42ffccf5-d5ff-4756-add4-38122971a55d"/>
+        <COMPID name="TcpMultiDestinationPortCapability" mc="Standard.Class" uid="1f010f91-f62d-4612-a1ca-b16a60063b48"/>
+        <COMPID name="TcpMultiportCapability" mc="Standard.Class" uid="7f57ad03-e28d-448d-80ce-464497c93fc9"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Tcp Class diagram" mc="Standard.ClassDiagram" uid="040cacff-6ae7-490e-81ae-683c45606311"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

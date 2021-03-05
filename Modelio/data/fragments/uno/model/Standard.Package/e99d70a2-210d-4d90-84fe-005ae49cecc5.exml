@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LayerCondition" version="4">
+  <OBJECT>
+    <ID name="LayerCondition" mc="Standard.Package" uid="e99d70a2-210d-4d90-84fe-005ae49cecc5"/>
+    <PID name="protocol" mc="Standard.Package" uid="782cc679-76d0-452b-8192-81e97c4e33f6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[LayerCondition]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="L3PayloadLengthCapability" mc="Standard.Class" uid="d8d1e186-42dc-49b3-be42-69889ad27ffc"/>
+        <COMPID name="LengthCapability" mc="Standard.Class" uid="8218b430-050c-4903-991b-968d8ea0ca1e"/>
+        <COMPID name="L2PktypeCapability" mc="Standard.Class" uid="2cc8af17-e9ad-4340-b621-72a58674e0f6"/>
+        <COMPID name="PktypeCapability" mc="Standard.Class" uid="80c242db-da22-4d64-9a68-b54cee4605d2"/>
+        <COMPID name="Physdev" mc="Standard.Package" uid="03b42c11-f928-47b2-ba87-ee9c74a89790"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="LayerInfo Class diagram" mc="Standard.ClassDiagram" uid="31e29985-e483-400c-a4d1-16b78197a9c8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

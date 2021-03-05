@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="nflog" version="4">
+  <OBJECT>
+    <ID name="nflog" mc="Standard.Package" uid="909375d2-e478-45e8-984b-32e8fca37eb1"/>
+    <PID name="packetManagement" mc="Standard.Package" uid="b1192f95-53bc-47db-a535-fc9bd157d3d7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[nflog]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="NflogCapability" mc="Standard.Class" uid="87ed75aa-a55c-4db8-98e9-328b28d5c7e9"/>
+        <COMPID name="NflogGroupCapability" mc="Standard.Class" uid="cf502e6f-04f7-4039-8ea9-13905c96ec38"/>
+        <COMPID name="NflogPrefixCapability" mc="Standard.Class" uid="362e6144-f4cb-4cf9-8f46-8a547a5a37bf"/>
+        <COMPID name="NflogRangeCapability" mc="Standard.Class" uid="73eeed16-de91-4152-a49c-050f81ecc783"/>
+        <COMPID name="NflogThresholdCapability" mc="Standard.Class" uid="7ad8c1ad-bd05-4c4e-8e04-f37d7cf9f69f"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="nflog Class diagram" mc="Standard.ClassDiagram" uid="799905d4-b964-4988-abe9-139c7b321441"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

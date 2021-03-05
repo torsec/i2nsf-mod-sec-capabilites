@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="iptables" version="4">
+  <OBJECT>
+    <ID name="iptables" mc="Standard.Package" uid="2a04a5af-23e3-4c12-96b4-b660703f4a2c"/>
+    <PID name="CapabilityDataModelAction" mc="Standard.Package" uid="015e9e09-d3ec-4dfa-8503-26761f63357e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[iptables]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DeleteChainCapability" mc="Standard.Class" uid="34aad979-c0ae-4a94-8f65-e12bb4e79b8f"/>
+        <COMPID name="FlushRuleCapability" mc="Standard.Class" uid="005ac81d-9627-4e17-bb7f-8239491a038e"/>
+        <COMPID name="SetPolicyCapability" mc="Standard.Class" uid="742508d2-4cfd-4e94-af68-3446a451bc65"/>
+        <COMPID name="AppendRuleCapability" mc="Standard.Class" uid="8e3f82b7-f221-4c7e-b1e1-c1b8b9920fb0"/>
+        <COMPID name="ListRulesCapability" mc="Standard.Class" uid="2036a1d0-7503-4341-840c-35188a1c54f2"/>
+        <COMPID name="QueueCapability" mc="Standard.Class" uid="975494b3-6c2b-4716-9005-1fba0229a9bb"/>
+        <COMPID name="CheckCapability" mc="Standard.Class" uid="438f2689-8eda-4c8e-a042-b13ef83db45b"/>
+        <COMPID name="JumpCapability" mc="Standard.Class" uid="dcb40a23-89c5-4b8b-906f-90e813cdbec4"/>
+        <COMPID name="ZeroCapability" mc="Standard.Class" uid="69b2ae3b-3435-422b-80da-2542a3b3bd47"/>
+        <COMPID name="NewChainCapability" mc="Standard.Class" uid="c4d471fd-26f9-4d54-841c-1a8f35be8191"/>
+        <COMPID name="DeleteRuleCapability" mc="Standard.Class" uid="f65b57e6-ac5c-4524-9fef-49940b14fb0c"/>
+        <COMPID name="HelpCapability" mc="Standard.Class" uid="2a1de61f-7c4b-4ee6-8ec8-ba552d0c5f20"/>
+        <COMPID name="ListCapability" mc="Standard.Class" uid="926d7ebd-470b-40d6-aac8-3af4b4ce9759"/>
+        <COMPID name="ReturnCapability" mc="Standard.Class" uid="503b932c-d316-4ebb-9d59-235b45163f5e"/>
+        <COMPID name="RenameChainCapability" mc="Standard.Class" uid="cf61a8fc-cfa9-4282-911d-ee92e0bc1110"/>
+        <COMPID name="ReplaceRuleCapability" mc="Standard.Class" uid="b25dd2d0-764d-4b78-82cf-caf85563e59c"/>
+        <COMPID name="InsertRuleCapability" mc="Standard.Class" uid="2a0f60fa-4302-485c-a604-5c5b13fb1843"/>
+        <COMPID name="GotoCapability" mc="Standard.Class" uid="23b98654-8171-4794-b1a0-f1be3c49b0db"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="iptables Class diagram" mc="Standard.ClassDiagram" uid="0521ed23-4dad-4c44-8d34-1aed3edf8a23"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="log" version="4">
+  <OBJECT>
+    <ID name="log" mc="Standard.Package" uid="fe53836e-9fa7-4cf9-bbe1-fd1134f3659d"/>
+    <PID name="report" mc="Standard.Package" uid="b2be5b45-37df-4e20-8e37-026499a21c42"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[log]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="LogLevelCapability" mc="Standard.Class" uid="b3650ca5-290b-4455-9f65-d384c823d425"/>
+        <COMPID name="LogPrefixCapability" mc="Standard.Class" uid="17b67e47-6dad-4abd-89ef-20eefd5e4946"/>
+        <COMPID name="LogTcpSequenceCapability" mc="Standard.Class" uid="7bf0d18d-b726-4698-a872-5bdd77c568db"/>
+        <COMPID name="LogTcpOptionsCapability" mc="Standard.Class" uid="677636e3-64bd-4968-b97e-153a8925fecc"/>
+        <COMPID name="LogIpOptionsCapability" mc="Standard.Class" uid="4394f22c-8058-4d79-886d-a417bc0fd435"/>
+        <COMPID name="LogUidCapability" mc="Standard.Class" uid="3932a0b1-0dca-4d0e-a639-138cf63e1979"/>
+        <COMPID name="LogCapability" mc="Standard.Class" uid="a5a23100-eab3-4a90-95b7-2f55c92513c1"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="log Class diagram" mc="Standard.ClassDiagram" uid="f5768fb7-5e40-4806-bba3-f1f5ddb3674c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

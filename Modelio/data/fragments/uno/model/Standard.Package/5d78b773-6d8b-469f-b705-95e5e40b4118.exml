@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Udp" version="4">
+  <OBJECT>
+    <ID name="Udp" mc="Standard.Package" uid="5d78b773-6d8b-469f-b705-95e5e40b4118"/>
+    <PID name="protocol" mc="Standard.Package" uid="782cc679-76d0-452b-8192-81e97c4e33f6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Udp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="UdpCapability" mc="Standard.Class" uid="96f20467-465e-4fab-a528-51ef317d0f6f"/>
+        <COMPID name="UdpSourcePortCapability" mc="Standard.Class" uid="770c049d-8637-4930-af4c-cd79bcda077a"/>
+        <COMPID name="UdpDestinationPortCapability" mc="Standard.Class" uid="e80f0628-92f9-4d85-8167-02f7e514422c"/>
+        <COMPID name="UdpTotalLengthCapability" mc="Standard.Class" uid="5910d925-edaa-4943-9731-5418fe8c2dc9"/>
+        <COMPID name="UdpMultiSurcePortCapability" mc="Standard.Class" uid="cefa6384-0139-4552-b8ad-9d6f02a96b1d"/>
+        <COMPID name="UdpMultiportCapability" mc="Standard.Class" uid="d452611b-15f2-4829-a060-cd11eab75386"/>
+        <COMPID name="UdpMultiPortsCapability" mc="Standard.Class" uid="09c84ffb-92ed-4cc1-9100-eb91d5209a0a"/>
+        <COMPID name="UdpMultiDestinationPortCapability" mc="Standard.Class" uid="c8153c06-e055-4b8c-999e-229dc6f414a5"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Udp Class diagram" mc="Standard.ClassDiagram" uid="5caebee3-dd59-4b36-9a41-57a1130430b0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

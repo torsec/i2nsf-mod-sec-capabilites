@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="prova1" version="4">
+  <OBJECT>
+    <ID name="prova1" mc="Standard.Package" uid="7757ebec-ba83-49cb-9e8f-617e06db3277"/>
+    <PID name="uno" mc="Standard.Project" uid="d56a085f-4747-4b9b-b774-77d252ad04e4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[prova1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CapabilityInformationModel" mc="Standard.Package" uid="c089381c-8eae-4de6-8e96-a35b0cef167d"/>
+        <COMPID name="BasicTypes" mc="Standard.Package" uid="4c1461a1-87f5-43a8-9c8a-7acbcd2c7687"/>
+        <COMPID name="CapabilityDataModel" mc="Standard.Package" uid="09ca03bd-b2cf-49b5-9c6c-199b1b2d181e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

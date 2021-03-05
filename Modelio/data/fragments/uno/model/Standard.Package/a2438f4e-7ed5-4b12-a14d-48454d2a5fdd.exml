@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="notrack" version="4">
+  <OBJECT>
+    <ID name="notrack" mc="Standard.Package" uid="a2438f4e-7ed5-4b12-a14d-48454d2a5fdd"/>
+    <PID name="stateful" mc="Standard.Package" uid="5c35dfba-f23e-4284-aeba-4a8fe0500332"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[notrack]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="NotrackCapability" mc="Standard.Class" uid="75889556-91c4-4933-9e02-2095886cdee3"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="notrack Class diagram" mc="Standard.ClassDiagram" uid="3b666410-fa54-4c41-aeb6-4da1e009974d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

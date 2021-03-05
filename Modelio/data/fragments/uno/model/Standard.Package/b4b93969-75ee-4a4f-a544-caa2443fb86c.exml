@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Hashlimit" version="4">
+  <OBJECT>
+    <ID name="Hashlimit" mc="Standard.Package" uid="b4b93969-75ee-4a4f-a544-caa2443fb86c"/>
+    <PID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Hashlimit]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="HashLimitCapability" mc="Standard.Class" uid="4e14dbb7-1754-4a5b-b315-a3870179602e"/>
+        <COMPID name="HashLimitUptoCapability" mc="Standard.Class" uid="a9ef1810-33f9-47b5-95a8-e2f741349b09"/>
+        <COMPID name="HashLimitAboveCapability" mc="Standard.Class" uid="f61b9229-c3d3-4774-8a08-cafebf4caf55"/>
+        <COMPID name="HashLimitBurstCapability" mc="Standard.Class" uid="f629aadd-f475-455b-800a-6b31400d9bc1"/>
+        <COMPID name="HashLimitModeCapability" mc="Standard.Class" uid="2bf78a25-87d9-4a5c-b054-b67fe7b9d506"/>
+        <COMPID name="HashLimitSrcMaskCapability" mc="Standard.Class" uid="56d64116-59e1-45de-b040-bfc25a5f7179"/>
+        <COMPID name="HashLimitDstMaskCapability" mc="Standard.Class" uid="d4562071-ee75-49bf-8c28-48de1da2c34b"/>
+        <COMPID name="HashLimitNameCapability" mc="Standard.Class" uid="ffc93715-01e4-4d53-820d-2095da3ad162"/>
+        <COMPID name="HashLimitHTableSizeCapability" mc="Standard.Class" uid="4727aa6b-7675-4b2f-9c7d-a53f48fd9c39"/>
+        <COMPID name="HashLimitHTableGcintevalCapability" mc="Standard.Class" uid="cb6cb452-6747-4cac-8dce-b278010b678b"/>
+        <COMPID name="HashLimitHTableExpireCapability" mc="Standard.Class" uid="05412103-de74-4bdb-ae11-8450f79b6a77"/>
+        <COMPID name="HashLimitHTableMaxCapability" mc="Standard.Class" uid="ddb116e3-b887-4c6c-9bab-9acd425eeabe"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Hashlimit Class diagram" mc="Standard.ClassDiagram" uid="2e134e15-4889-48a7-bed0-c07ae39b1acb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

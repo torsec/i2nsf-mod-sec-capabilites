@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dscp" version="4">
+  <OBJECT>
+    <ID name="dscp" mc="Standard.Package" uid="717703bb-d2a2-4c1e-bef6-84e8101e71e8"/>
+    <PID name="packetManagement" mc="Standard.Package" uid="b1192f95-53bc-47db-a535-fc9bd157d3d7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dscp]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DscpActionCapability" mc="Standard.Class" uid="c86a6769-dce7-464d-b66f-0cb2c3e05cd5"/>
+        <COMPID name="SetDscpClassCapability" mc="Standard.Class" uid="1cf886f1-98e2-45f7-929c-e7ec140f56e1"/>
+        <COMPID name="SetDscpValueCapability" mc="Standard.Class" uid="b859d14a-74f6-419e-8d97-f1cd01489432"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="dscp Class diagram" mc="Standard.ClassDiagram" uid="69e1c0d8-a7af-45a9-ba3b-e957ec600314"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

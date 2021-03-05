@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="reject" version="4">
+  <OBJECT>
+    <ID name="reject" mc="Standard.Package" uid="8c172f33-498c-4b87-bfcb-878c5c01ff98"/>
+    <PID name="packetManagement" mc="Standard.Package" uid="b1192f95-53bc-47db-a535-fc9bd157d3d7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[reject]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="RejectIpv4Capability" mc="Standard.Class" uid="80e4f7ab-01f8-48d1-9e65-26292fff955c"/>
+        <COMPID name="RejectIpv4TypeCapability" mc="Standard.Class" uid="3958c41b-a1de-4fc7-b73d-4da2cdb4ea7d"/>
+        <COMPID name="RejectIpv6Capability" mc="Standard.Class" uid="d40a8402-9dbe-4955-a79b-cbcd51ef004e"/>
+        <COMPID name="RejectIpv6TypeCapability" mc="Standard.Class" uid="46a43a7d-82ae-404e-a687-372af73e54d1"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="reject Class diagram" mc="Standard.ClassDiagram" uid="b5a75bf1-d7fa-4c48-a97f-f7413209519c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

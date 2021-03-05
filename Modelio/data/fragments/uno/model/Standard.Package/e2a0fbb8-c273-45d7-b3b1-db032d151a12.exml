@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Ipvs" version="4">
+  <OBJECT>
+    <ID name="Ipvs" mc="Standard.Package" uid="e2a0fbb8-c273-45d7-b3b1-db032d151a12"/>
+    <PID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Ipvs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="IpvsBaseCapability" mc="Standard.Class" uid="a764b73f-701e-4e6a-949d-27e1b82d3e92"/>
+        <COMPID name="IpvsCapability" mc="Standard.Class" uid="069c43e9-90d0-4dfa-ab30-a7d96bcf04ea"/>
+        <COMPID name="IpvsVprotoCapability" mc="Standard.Class" uid="02cf75f8-8256-467e-9c84-fdd803ca145a"/>
+        <COMPID name="IpvsVportCtlCapability" mc="Standard.Class" uid="8bc51f00-2419-406e-ba28-165502cd0ba0"/>
+        <COMPID name="IpvsVmethodCapability" mc="Standard.Class" uid="825c5aab-f0c7-4ee3-82f9-d604e4a5ed4e"/>
+        <COMPID name="IpvsVportCapability" mc="Standard.Class" uid="d9af2dda-820d-46cb-bc03-a1fe8043b21d"/>
+        <COMPID name="IpvsVaddrCapability" mc="Standard.Class" uid="7c9d3727-f905-419a-a41c-4a538c66cef7"/>
+        <COMPID name="IpvsVdirCapability" mc="Standard.Class" uid="eb5633dd-ba7a-4432-9f92-6d24279e2323"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Ipvs Class diagram" mc="Standard.ClassDiagram" uid="1701d65e-dc0c-42c4-aa9a-479749609e1d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

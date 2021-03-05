@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="masquerade" version="4">
+  <OBJECT>
+    <ID name="masquerade" mc="Standard.Package" uid="5fa45cb8-5926-45c5-9577-3da82e8c1851"/>
+    <PID name="packetManagement" mc="Standard.Package" uid="b1192f95-53bc-47db-a535-fc9bd157d3d7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[masquerade]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MasqueradeCapability" mc="Standard.Class" uid="36f62b97-9329-453a-a69a-50013d1a3931"/>
+        <COMPID name="ToPortsCapability" mc="Standard.Class" uid="3b34d9e1-e751-42b8-94b7-6e9e5e037b4f"/>
+        <COMPID name="Random" mc="Standard.Class" uid="9002897a-eeb2-4fca-9c25-f559cbdce6d3"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="masquerade Class diagram" mc="Standard.ClassDiagram" uid="55cc632f-584f-4c4c-a7c1-bf2634c14133"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Nfact" version="4">
+  <OBJECT>
+    <ID name="Nfact" mc="Standard.Package" uid="83c49a9f-76b1-4201-9649-9f3ad7a5f86f"/>
+    <PID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Nfact]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="NfacctCapability" mc="Standard.Class" uid="3bec95dd-c69d-425c-9baa-be071d553ea9"/>
+        <COMPID name="NfacctNameCapability" mc="Standard.Class" uid="fb3dcd99-40ef-42e9-b687-00a60517bc7d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Nfact Class diagram" mc="Standard.ClassDiagram" uid="58e34e18-dc5a-4c5b-bbf9-b7e816d62a9b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

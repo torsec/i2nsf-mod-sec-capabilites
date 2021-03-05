@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Mac" version="4">
+  <OBJECT>
+    <ID name="Mac" mc="Standard.Package" uid="06506640-852f-4ca4-bdbb-b13367624e12"/>
+    <PID name="protocol" mc="Standard.Package" uid="782cc679-76d0-452b-8192-81e97c4e33f6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Mac]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MacBaseCapability" mc="Standard.Class" uid="6ffa6dfa-1679-429e-8371-7fe32733c6b6"/>
+        <COMPID name="MacCapability" mc="Standard.Class" uid="c70282c1-3e61-4e19-bcd1-e46fd29f252a"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Mac Class diagram" mc="Standard.ClassDiagram" uid="665673a8-60c6-4b74-b4d6-8b07a6d1180d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

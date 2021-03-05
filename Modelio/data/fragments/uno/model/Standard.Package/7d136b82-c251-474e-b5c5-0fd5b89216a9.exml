@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Connbytes" version="4">
+  <OBJECT>
+    <ID name="Connbytes" mc="Standard.Package" uid="7d136b82-c251-474e-b5c5-0fd5b89216a9"/>
+    <PID name="statefull" mc="Standard.Package" uid="7a3dc09e-562c-4c52-890f-f198f9ddd965"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Connbytes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ConnectionbytesCapability" mc="Standard.Class" uid="44b03a87-0e7f-4b87-ba45-2e85175ad94b"/>
+        <COMPID name="ConnbytesCapability" mc="Standard.Class" uid="a3d47279-7416-41ac-8738-13d64e405328"/>
+        <COMPID name="ConnbytesDirCapability" mc="Standard.Class" uid="eb56674c-1d27-4ae1-abfb-424a5976dbe4"/>
+        <COMPID name="ConnbytesModeCapability" mc="Standard.Class" uid="645f49dd-3a07-4708-a90f-3e25f2338ac3"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Connbytes Class diagram" mc="Standard.ClassDiagram" uid="1586fea6-05b5-491f-8711-448c277af412"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="reteest" version="4">
+  <OBJECT>
+    <ID name="reteest" mc="Standard.Package" uid="2224f2f5-ed66-445e-b53f-f50c5b64356e"/>
+    <PID name="stateful" mc="Standard.Package" uid="5c35dfba-f23e-4284-aeba-4a8fe0500332"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[reteest]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="RateestActionCapability" mc="Standard.Class" uid="9f096e20-603d-42eb-bb53-5d2ec7954374"/>
+        <COMPID name="RateestNameCapability" mc="Standard.Class" uid="fe3f32ad-0893-4b19-bb05-49e3b8c3a021"/>
+        <COMPID name="RateestIntevalCapability" mc="Standard.Class" uid="4ef5760d-90c3-4946-9180-d1eb7b41eb03"/>
+        <COMPID name="RateestEwmalogCapability" mc="Standard.Class" uid="d1b7e4f0-6292-4184-820d-2c638bf9e0de"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="reteest Class diagram" mc="Standard.ClassDiagram" uid="7f57e476-b329-4293-8b87-86c6b2fb4da2"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

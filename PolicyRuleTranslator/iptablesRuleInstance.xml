@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="language.xsd">
+  
+  <NSFName>iptables</NSFName>
+  
+  <!-- iptables -A FORWARD -p tcp -d IP Ali - - dport 80 -j ACCEPT -->
+   
+  <rule>
+  
+	<securityCapability xsi:type="TableCapability">
+		<table>filter</table>
+	</securityCapability>
+    <securityCapability xsi:type="AppendRuleCapability">
+    	<chain>FORWARD</chain>
+    </securityCapability>
+    <securityCapability xsi:type="IpProtocolTypeCapability">
+    	<protocolType>
+    		<protocolTypeName>TCP</protocolTypeName>
+    	</protocolType>
+    </securityCapability>
+    <securityCapability xsi:type="IpDestinationAddressCapability">
+    	<ipAddress>
+    		<address>192.168.1.1</address>
+    		<mask>255.255.255.0</mask>
+    	</ipAddress>
+    </securityCapability>
+    <securityCapability xsi:type="DestinationPortCapability">
+    	<port>
+    		<startValue>80</startValue>
+    		<endValue>90</endValue> 
+    	</port>
+    </securityCapability>
+     
+    <securityCapability xsi:type="SourcePortCapability">
+    	<port>
+    		<startValue>80</startValue>
+    		<endValue>90</endValue> 
+    	</port>
+    </securityCapability>
+    
+    <securityCapability xsi:type="JumpCapability">
+    	<target>ACCEPT</target>
+    </securityCapability>
+      
+  </rule>
+    
+  <!-- iptables -A INPUT -p icmp - -icmp-type redirect -j DROP -->
+   
+  <rule>
+	  <securityCapability xsi:type="AppendRuleCapability">
+	  	<chain>INPUT</chain>
+	  </securityCapability>
+	  <securityCapability xsi:type="IpProtocolTypeCapability">
+	  	<protocolType><protocolTypeName>ICMP</protocolTypeName></protocolType>
+	  </securityCapability>
+	  <securityCapability xsi:type="IcmpTypeCapability">
+	  	<typeName>redirect</typeName>
+	  </securityCapability>
+    <securityCapability xsi:type="JumpCapability">
+    	<target>DROP</target>
+    </securityCapability>
+  </rule>
+  
+    
+  <!-- iptables -t nat -A PREROUTING ! -p tcp -s 192.168.1.2 -->
+    
+  
+    <rule>
+	  <securityCapability xsi:type="TableCapability">
+	  	<table>nat</table>
+	  </securityCapability>
+	  <securityCapability xsi:type="AppendRuleCapability">
+	  	<chain>OUTPUT</chain>
+	  </securityCapability>
+	  <securityCapability xsi:type="IpProtocolTypeCapability">
+	  	<operation>NOT_EQUAL_TO</operation>
+	  	<protocolType><protocolTypeName>TCP</protocolTypeName></protocolType>
+	  </securityCapability>
+	  <securityCapability xsi:type="IpSourceAddressCapability">
+	  	<ipAddress>
+	  		<address>192.168.1.2</address>
+	  		<mask>24</mask>
+	  	</ipAddress>
+	  </securityCapability>
+  </rule>
+    
+  <!-- iptables -A INPUT - -rateest-gt 5 -->
+     
+  <rule>
+  	<securityCapability xsi:type="AppendRuleCapability">
+  		<chain>INPUT</chain>
+  	</securityCapability>
+  	<securityCapability xsi:type="MatchCapability">
+  		<match>rateest</match>
+  	</securityCapability>
+  	<securityCapability xsi:type="RateestRateCapability">
+  		<operation>GREATER_THAN</operation>
+  		<rate>5</rate>
+  	</securityCapability>
+  </rule>
+     
+  
+    <!-- iptables - -sports 25:50,60,80,100:120 -->
+
+  
+  <rule>
+	 <securityCapability xsi:type="IpProtocolTypeCapability">
+	  	<protocolType><protocolTypeName>TCP</protocolTypeName></protocolType>
+	  </securityCapability>
+  	<securityCapability xsi:type="MatchCapability">
+  		<match>multiport</match>
+  	</securityCapability>
+  	<securityCapability xsi:type="MultiSourcePortCapability">
+  	<port>
+  		<startValue>25</startValue>
+  		<endValue>50</endValue>
+  	</port>
+  	<port>
+  		<startValue>60</startValue>
+  		<endName>http</endName>
+  	</port>
+  	
+  	</securityCapability>
+  </rule>
+  
+   
+  <rule>
+  	<securityCapability xsi:type="HbhOptsCapability">
+  		<typeLenType>
+  			<type>1</type>
+  			<len>10</len>
+  		</typeLenType>
+  		<typeLenType>
+  			<type>12</type>
+  			<len>8</len>
+  		</typeLenType>
+  		<typeLenType>
+  			<type>7</type>
+  		</typeLenType>
+  		<typeLenType>
+  			<type>11</type>
+  		</typeLenType>
+  		<typeLenType>
+  			<type>12</type>
+  			<len>6</len>
+  		</typeLenType>
+  		<typeLenType>
+  			<type>17</type>
+  		</typeLenType>
+  		<typeLenType>
+  			<type>20</type>
+  		</typeLenType>
+  		<typeLenType>
+  			<type>121</type>
+  			<len>5</len>
+  		</typeLenType>
+  	</securityCapability>
+  </rule>
+   
+    
+   <rule>
+    <securityCapability xsi:type="TableCapability">
+    	<table>nat</table>
+    </securityCapability>
+  	<securityCapability xsi:type="JumpCapability">
+  		<target>SNAT</target>
+  	</securityCapability>
+  	<securityCapability xsi:type="SnatToSourceCapability">
+  	<fromAddress>
+  		<address>192.168.1.1</address>
+  	</fromAddress>
+  	<toAddress>
+  		<address>155.161.1.1</address>
+  	</toAddress>
+  	<port>
+  		<startValue>25</startValue>
+  		<endValue>50</endValue> 
+  	</port>
+  	</securityCapability>
+  </rule>  
+  	  
+  	 
+  	  
+   <rule>
+  	<securityCapability xsi:type="DateStartCapability">
+  		<date>
+  		<stringDate>1234-11-16T22:49:40</stringDate>
+  		</date>
+  	</securityCapability>
+  	<securityCapability xsi:type="NfQueueNumCapability">
+  		<value>7</value>
+  	</securityCapability>
+  </rule> 
+   
+  
+   
+	<rule>
+		<securityCapability xsi:type="StringFromCapability">
+			<operation>NOT_EQUAL_TO</operation>
+			<offset>23</offset>
+		</securityCapability>
+	</rule> 
+    
+    
+    
+  
+	<rule>
+		<securityCapability xsi:type="DestinationPortCapability">
+			<port>
+				<endValue>80</endValue>
+			</port>
+		</securityCapability>
+		<securityCapability xsi:type="IpvsVportCapability">
+			<port>
+				<endValue>20</endValue>
+			</port>
+		</securityCapability>
+	</rule> 
+     
+     <rule>
+     	<securityCapability xsi:type="AppendRuleCapability">
+     		<chain>INPUT</chain>
+     	</securityCapability>
+     	<securityCapability xsi:type="IpProtocolTypeCapability">
+     		<protocolType><protocolTypeName>tcp</protocolTypeName></protocolType>
+     	</securityCapability>
+     	<securityCapability xsi:type="SourcePortCapability">
+     		<port>
+     			<startValue>50</startValue>
+     		</port>
+     	</securityCapability>
+     </rule>
+     
+     <rule>
+     	<securityCapability xsi:type="SourcePortCapability">     	
+     		<port>
+     			<startName>ssh</startName>
+     			<endName>http</endName>
+     		</port>
+     	</securityCapability>
+     	<securityCapability xsi:type="IpDestinationAddressCapability">
+     		<ipAddress>
+     			<address>192.168.1.1</address>
+     			<mask>192.168.1.0</mask>
+     		</ipAddress>
+     	</securityCapability>
+     </rule>
+    
+    	
+    
+</policy>

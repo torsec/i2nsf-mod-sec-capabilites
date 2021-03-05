@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="packetManagement" version="4">
+  <OBJECT>
+    <ID name="packetManagement" mc="Standard.Package" uid="b1192f95-53bc-47db-a535-fc9bd157d3d7"/>
+    <PID name="CapabilityDataModelAction" mc="Standard.Package" uid="015e9e09-d3ec-4dfa-8503-26761f63357e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[packetManagement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="clusterip" mc="Standard.Package" uid="ec0a1647-3e27-44d0-8fae-ac1d93fff04a"/>
+        <COMPID name="dnat" mc="Standard.Package" uid="fd36edba-488f-42b7-8f38-eeef532409c0"/>
+        <COMPID name="dnpt" mc="Standard.Package" uid="b5486076-55cc-44ee-bb5d-a0af542af93d"/>
+        <COMPID name="dscp" mc="Standard.Package" uid="717703bb-d2a2-4c1e-bef6-84e8101e71e8"/>
+        <COMPID name="ecn" mc="Standard.Package" uid="74212370-eccb-4c9f-a78b-e1491f036f78"/>
+        <COMPID name="hl" mc="Standard.Package" uid="a978db66-4127-45e8-9dc5-3797274e564b"/>
+        <COMPID name="masquerade" mc="Standard.Package" uid="5fa45cb8-5926-45c5-9577-3da82e8c1851"/>
+        <COMPID name="netmap" mc="Standard.Package" uid="db2a1ce8-944b-4c3a-9648-e90a775523f2"/>
+        <COMPID name="nflog" mc="Standard.Package" uid="909375d2-e478-45e8-984b-32e8fca37eb1"/>
+        <COMPID name="nfqueue" mc="Standard.Package" uid="25e06937-d501-4bc3-ba02-ba8f838cea16"/>
+        <COMPID name="redirect" mc="Standard.Package" uid="c0720c2d-d509-4d56-8bdf-7e256d1d29e7"/>
+        <COMPID name="reject" mc="Standard.Package" uid="8c172f33-498c-4b87-bfcb-878c5c01ff98"/>
+        <COMPID name="tee" mc="Standard.Package" uid="7f06aa08-a57f-4114-ba1d-f26a1af78440"/>
+        <COMPID name="tproxy" mc="Standard.Package" uid="a730232e-bc75-4a8f-98a5-16f7fb05a482"/>
+        <COMPID name="ulog" mc="Standard.Package" uid="3ab39adc-49f1-48bf-8b29-d7284edba9c9"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

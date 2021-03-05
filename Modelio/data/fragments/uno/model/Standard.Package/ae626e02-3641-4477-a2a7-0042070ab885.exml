@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Rt" version="4">
+  <OBJECT>
+    <ID name="Rt" mc="Standard.Package" uid="ae626e02-3641-4477-a2a7-0042070ab885"/>
+    <PID name="Ipv6" mc="Standard.Package" uid="b4db4999-5765-4e30-a4d8-6eadfee277c7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Rt]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="RtCapability" mc="Standard.Class" uid="ba123c77-7d09-47ea-9745-65ddfb825b27"/>
+        <COMPID name="RtSegsleftCapability" mc="Standard.Class" uid="83346a37-f986-4dbe-84b6-92403a7c96e6"/>
+        <COMPID name="RtLenCapability" mc="Standard.Class" uid="272c1448-2600-40f9-b0ab-7662fd272f1a"/>
+        <COMPID name="Rt0resCapability" mc="Standard.Class" uid="25aa15b7-6bdf-4c0d-92c8-628c294e2b19"/>
+        <COMPID name="RtTypeCapability" mc="Standard.Class" uid="88c0f862-7953-40ca-88cd-c42971b2599f"/>
+        <COMPID name="Rt0addrsCapability" mc="Standard.Class" uid="7a03cb97-9e2a-4e8d-a86e-bf11f00f1a6c"/>
+        <COMPID name="Rt0notStrictCapability" mc="Standard.Class" uid="eef73aa4-30f1-4b72-acad-353b4987b2f5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

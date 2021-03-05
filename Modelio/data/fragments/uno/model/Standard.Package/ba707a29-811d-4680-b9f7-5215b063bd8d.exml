@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="trace" version="4">
+  <OBJECT>
+    <ID name="trace" mc="Standard.Package" uid="ba707a29-811d-4680-b9f7-5215b063bd8d"/>
+    <PID name="stateful" mc="Standard.Package" uid="5c35dfba-f23e-4284-aeba-4a8fe0500332"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[trace]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TraceCapability" mc="Standard.Class" uid="b90d67e1-1432-44f9-b07e-976947787d66"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="trace Class diagram" mc="Standard.ClassDiagram" uid="be0bb976-dda7-4aea-8a3c-37f1b74e4d42"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

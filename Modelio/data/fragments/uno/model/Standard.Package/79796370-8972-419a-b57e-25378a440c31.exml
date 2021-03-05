@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="led" version="4">
+  <OBJECT>
+    <ID name="led" mc="Standard.Package" uid="79796370-8972-419a-b57e-25378a440c31"/>
+    <PID name="report" mc="Standard.Package" uid="b2be5b45-37df-4e20-8e37-026499a21c42"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[led]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="LedCapability" mc="Standard.Class" uid="87f09843-007c-4fa3-8639-0d00a95b7dbe"/>
+        <COMPID name="LedTriggerIdCapability" mc="Standard.Class" uid="d423d7d3-9e64-4e03-afc1-bf396530968a"/>
+        <COMPID name="LedDelayCapability" mc="Standard.Class" uid="682374ca-1f24-438b-8e17-acec17034955"/>
+        <COMPID name="LedAlwaysBlinkCapability" mc="Standard.Class" uid="78be2ce2-c7b3-4a07-b680-4e8e1de06320"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="led Class diagram" mc="Standard.ClassDiagram" uid="be597e71-f46e-4fd6-8cde-675e88f57082"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

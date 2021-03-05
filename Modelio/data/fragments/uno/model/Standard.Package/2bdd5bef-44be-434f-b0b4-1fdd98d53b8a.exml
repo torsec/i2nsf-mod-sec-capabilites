@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Ipv4" version="4">
+  <OBJECT>
+    <ID name="Ipv4" mc="Standard.Package" uid="2bdd5bef-44be-434f-b0b4-1fdd98d53b8a"/>
+    <PID name="protocol" mc="Standard.Package" uid="782cc679-76d0-452b-8192-81e97c4e33f6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Ipv4]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Ipv4Capability" mc="Standard.Class" uid="7ae2cf61-dd0b-4653-9806-bc3190979dc0"/>
+        <COMPID name="IpSourceAddressCapability" mc="Standard.Class" uid="3d94eefa-93ae-4cdb-9448-92279074c5a0"/>
+        <COMPID name="IpDestinationAddressCapability" mc="Standard.Class" uid="22244697-6c61-499c-bc76-345c6043d928"/>
+        <COMPID name="IpProtocolTypeCapability" mc="Standard.Class" uid="364e3832-c450-4dbe-ac77-73e226e3835f"/>
+        <COMPID name="IpTypeOfServiceCapability" mc="Standard.Class" uid="4ea18b9e-2052-43a0-85ee-d4f85fb9edbd"/>
+        <COMPID name="IpHeaderLengthCapability" mc="Standard.Class" uid="b74e06f8-012d-4a53-88cc-92205664f8a9"/>
+        <COMPID name="IpTotalLengthCapability" mc="Standard.Class" uid="1a79194e-68d6-437c-9ec7-1078d1899fd6"/>
+        <COMPID name="IpTimeToLiveCapability" mc="Standard.Class" uid="0a6caf89-2cfd-4be1-b21e-c44c67630136"/>
+        <COMPID name="IpFlagsCapability" mc="Standard.Class" uid="ada4ba75-a857-4395-a116-65006cf57012"/>
+        <COMPID name="IpExplicitCongestionNotification" mc="Standard.Class" uid="c2b321bd-5616-447e-babd-81690ef970a9"/>
+        <COMPID name="IpIdentificationCapability" mc="Standard.Class" uid="7c947256-daf1-4794-943f-44d4b767d5f9"/>
+        <COMPID name="IpHeaderChecksum" mc="Standard.Class" uid="c8c48676-b091-4b04-a463-45862f423733"/>
+        <COMPID name="IpFragmentOffsetCapability" mc="Standard.Class" uid="01a259c0-7f4e-4e10-b1d1-c6c8578bcdd2"/>
+        <COMPID name="IpSourceRangeCapability" mc="Standard.Class" uid="5521a22d-75f4-4939-a18f-e868743bf2d1"/>
+        <COMPID name="IpDestinationRangeCapability" mc="Standard.Class" uid="5f8d912e-984c-43aa-8dcf-7b1f02d94587"/>
+        <COMPID name="TosConditionCapability" mc="Standard.Class" uid="4d196661-efec-47a9-b1cc-bd1a6de7525d"/>
+        <COMPID name="TosValueCapability" mc="Standard.Class" uid="2cc6f177-05e0-48d7-8019-5f9300c42905"/>
+        <COMPID name="TosSymbolCapability" mc="Standard.Class" uid="74655fd7-d5f0-4176-967b-697792e20648"/>
+        <COMPID name="AddrSourceTypeCapability" mc="Standard.Class" uid="9e99375a-b8bc-41b4-975e-13e3f9132702"/>
+        <COMPID name="AddrDestinationTypeCapability" mc="Standard.Class" uid="b2a0257f-aa76-4b80-ab3e-827f91a32cd3"/>
+        <COMPID name="AddrInterfaceLimitOutCapability" mc="Standard.Class" uid="231b6d0a-ca26-4185-889f-d4f0b01671fc"/>
+        <COMPID name="AddrInterfaceLimitInCapability" mc="Standard.Class" uid="7b1cfd20-275c-4e79-b89d-1c1044f38ced"/>
+        <COMPID name="ipAddressCapability" mc="Standard.Class" uid="bd812270-f806-48de-be13-0d405206c6fc"/>
+        <COMPID name="IpSrcAddressCapability" mc="Standard.Class" uid="19cdbb52-4b07-40cd-9695-bbf1820aaa29"/>
+        <COMPID name="IpDestAddressCapability" mc="Standard.Class" uid="e5b0b3ab-ca95-4cac-9b4d-1e0e975cf0ea"/>
+        <COMPID name="DscpConditionCapability" mc="Standard.Class" uid="b82a7543-3e2d-446f-b16d-e01fe2cbd8f4"/>
+        <COMPID name="DscpClassCapability" mc="Standard.Class" uid="1026c83b-e8c0-4cec-a2d7-65e2aa42c998"/>
+        <COMPID name="DscpCapability" mc="Standard.Class" uid="0a728d2a-da1b-4c7d-850a-a94d0dba7515"/>
+        <COMPID name="EcnIpv4EctCapability" mc="Standard.Class" uid="1220d7fb-e0f1-4927-964e-354b29818651"/>
+        <COMPID name="RealmCapability" mc="Standard.Class" uid="6c19efa2-b795-4bd8-842f-81c389a3411e"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="ipv4Capa" mc="Standard.ClassDiagram" uid="adb69612-72c2-44fa-9f61-505e6744ae58"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

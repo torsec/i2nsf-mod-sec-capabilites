@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="other" version="4">
+  <OBJECT>
+    <ID name="other" mc="Standard.Package" uid="eb81be9d-28f0-45a7-9692-414c470eb067"/>
+    <PID name="CapabilityModelCondition" mc="Standard.Package" uid="863fd416-2395-4fef-b227-3b143b0e2f67"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[other]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="InputInterfaceCapability" mc="Standard.Class" uid="44619f86-0a78-4a45-891f-4ea3bc083644"/>
+        <COMPID name="OutputInterfaceCapability" mc="Standard.Class" uid="a7e63d1d-f428-4ecf-9ac8-baf07909ccc1"/>
+        <COMPID name="UncleanCapability" mc="Standard.Class" uid="f78c9f1a-2e5b-4868-8e09-b060f1b9131e"/>
+        <COMPID name="Comment" mc="Standard.Package" uid="fc5d4030-90fb-46f8-b9a2-d0db5b681aad"/>
+        <COMPID name="Set" mc="Standard.Package" uid="610571f4-5ac3-4a33-8e99-6a47a4dc7a03"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="other capability Class diagram" mc="Standard.ClassDiagram" uid="99daa27d-ece1-405a-9fe1-45b81495bfd3"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

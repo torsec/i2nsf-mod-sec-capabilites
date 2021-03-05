@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CapabilityInformationModel" version="4">
+  <OBJECT>
+    <ID name="CapabilityInformationModel" mc="Standard.Package" uid="c089381c-8eae-4de6-8e96-a35b0cef167d"/>
+    <PID name="prova1" mc="Standard.Package" uid="7757ebec-ba83-49cb-9e8f-617e06db3277"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CapabilityInformationModel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="NSF" mc="Standard.Class" uid="de1a47ce-b22b-4694-861e-3cc9505f2970"/>
+        <COMPID name="HasSecurityCapabilityDetails" mc="Standard.Class" uid="2c84303e-bd46-4c0a-9351-a9ae16121f76"/>
+        <COMPID name="NsfAdapterContainer" mc="Standard.Class" uid="497c638f-6ac9-4f83-9dd7-4c693aad0cc9"/>
+        <COMPID name="LanguageItemAdapterConcrete" mc="Standard.Class" uid="443928b0-1364-4b04-b736-5b2e26b6a5cf"/>
+        <COMPID name="NSFFactory" mc="Standard.Class" uid="5733c4e8-a5d3-42b6-ae65-f04b37ebb3b0"/>
+        <COMPID name="Metadata" mc="Standard.Class" uid="b15f3224-7d51-4911-9eca-ad19434cf4a8"/>
+        <COMPID name="LanguageItemHasSecurityCapabilityDetail" mc="Standard.Class" uid="ea9768c2-e2b9-42d6-a046-e810966928bd"/>
+        <COMPID name="NSFInstance" mc="Standard.Class" uid="3ca9aa14-5771-4f59-aad6-0a9667cf8662"/>
+        <COMPID name="NsfTranslatorAdapter" mc="Standard.Class" uid="56c14358-2064-4b60-b745-42aea73d8e0d"/>
+        <COMPID name="NsfOutputTranslatoConcrete" mc="Standard.Class" uid="df103fa6-4013-4087-a6e9-b673620d0957"/>
+        <COMPID name="LanguageAdapterContainer" mc="Standard.Class" uid="2ac9adfe-8ce1-4e6b-9c2a-a76ab21574b8"/>
+        <COMPID name="LanguageModelGenerator" mc="Standard.Class" uid="8f5c9bda-cf40-407f-97c7-c4c42f454ece"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="CapIM" mc="Standard.ClassDiagram" uid="4b6abd2f-64cd-440e-915e-4834fa089531"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

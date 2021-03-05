@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tos" version="4">
+  <OBJECT>
+    <ID name="tos" mc="Standard.Package" uid="4517a224-61c9-4f3a-8da0-e289787b0383"/>
+    <PID name="packetModify" mc="Standard.Package" uid="47b14d3b-fda7-43ce-a2b2-d66e211613c9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tos]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TosCapability" mc="Standard.Class" uid="f31943f4-309d-4da0-b683-b0bebc52eca3"/>
+        <COMPID name="TosSetCapability" mc="Standard.Class" uid="182445b0-dbc3-4a10-bffb-d483bfd58a4c"/>
+        <COMPID name="TosSetSimbolCapability" mc="Standard.Class" uid="f4e5dda9-62da-4475-8d78-44c06b9e81d4"/>
+        <COMPID name="TosBitCapability" mc="Standard.Class" uid="6cfd943a-c014-43fd-86c5-787b67c7c8cd"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="tos Class diagram" mc="Standard.ClassDiagram" uid="6e83fc56-1092-4053-8d4a-971cae5a6ab8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

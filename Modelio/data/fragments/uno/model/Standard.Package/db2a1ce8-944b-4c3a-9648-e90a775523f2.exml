@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="netmap" version="4">
+  <OBJECT>
+    <ID name="netmap" mc="Standard.Package" uid="db2a1ce8-944b-4c3a-9648-e90a775523f2"/>
+    <PID name="packetManagement" mc="Standard.Package" uid="b1192f95-53bc-47db-a535-fc9bd157d3d7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[netmap]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="NetmapCapability" mc="Standard.Class" uid="a3b68a9c-b443-43a2-9e15-b6bbf9122961"/>
+        <COMPID name="ToAddressCapability" mc="Standard.Class" uid="9cc5445b-471c-4258-864e-b5de3edadc40"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="netmap Class diagram" mc="Standard.ClassDiagram" uid="e526701e-508b-4689-96ce-2453bdfa5e0b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

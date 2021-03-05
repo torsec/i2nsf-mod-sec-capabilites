@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ecn" version="4">
+  <OBJECT>
+    <ID name="ecn" mc="Standard.Package" uid="74212370-eccb-4c9f-a78b-e1491f036f78"/>
+    <PID name="packetManagement" mc="Standard.Package" uid="b1192f95-53bc-47db-a535-fc9bd157d3d7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ecn]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EcnCapability" mc="Standard.Class" uid="9980a699-e085-4fd2-bac4-461680fe7468"/>
+        <COMPID name="EcnTcpRemoveCapability" mc="Standard.Class" uid="d618bf1a-e3af-49f1-8fdf-b0469882eaeb"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="ecn Class diagram" mc="Standard.ClassDiagram" uid="05fdceb8-aa1e-499b-a8a9-dc541fa650d3"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

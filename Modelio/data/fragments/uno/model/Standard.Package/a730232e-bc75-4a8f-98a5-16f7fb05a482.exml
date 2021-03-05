@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tproxy" version="4">
+  <OBJECT>
+    <ID name="tproxy" mc="Standard.Package" uid="a730232e-bc75-4a8f-98a5-16f7fb05a482"/>
+    <PID name="packetManagement" mc="Standard.Package" uid="b1192f95-53bc-47db-a535-fc9bd157d3d7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tproxy]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TproxyCapability" mc="Standard.Class" uid="e86705a9-4398-45f7-b472-cc2eea71b6c2"/>
+        <COMPID name="OnPortCapability" mc="Standard.Class" uid="c9d726fd-7ae0-4e52-85f0-8fc7b449b746"/>
+        <COMPID name="OnIpCapability" mc="Standard.Class" uid="9afad8ee-f330-408e-a2e0-7a32fde77032"/>
+        <COMPID name="TproxyMaskCapability" mc="Standard.Class" uid="55293c54-0f07-45fb-99d2-2d2c656ebec5"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="tproxy Class diagram" mc="Standard.ClassDiagram" uid="f2357393-f470-4b6f-8eac-183bd521655d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Ipv6" version="4">
+  <OBJECT>
+    <ID name="Ipv6" mc="Standard.Package" uid="b4db4999-5765-4e30-a4d8-6eadfee277c7"/>
+    <PID name="protocol" mc="Standard.Package" uid="782cc679-76d0-452b-8192-81e97c4e33f6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Ipv6]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DstCapability" mc="Standard.Class" uid="f1b4d1db-9255-4829-9245-f5406c1e6e17"/>
+        <COMPID name="DstLengthCapability" mc="Standard.Class" uid="f2f35d5f-8ee0-44ab-a043-0605eb1c5391"/>
+        <COMPID name="DstOptsCapability" mc="Standard.Class" uid="bc686b40-4f8c-4850-aa9f-52df56b62c8a"/>
+        <COMPID name="Eui64BaseCapability" mc="Standard.Class" uid="d184d2ad-b6f9-4105-afd9-f98e3a91486a"/>
+        <COMPID name="Eui64Capability" mc="Standard.Class" uid="34928409-6509-46c5-8cfd-09c072aab38e"/>
+        <COMPID name="FragCapability" mc="Standard.Class" uid="8995aa3e-d658-4696-bc67-0dca3e67319a"/>
+        <COMPID name="FragMoreCapability" mc="Standard.Class" uid="c708d0f1-58d3-4262-a722-3181c58c7ca8"/>
+        <COMPID name="FragResCapability" mc="Standard.Class" uid="f61bfc57-69d0-45f5-9694-9a50467253f6"/>
+        <COMPID name="FragIdCapability" mc="Standard.Class" uid="c2b03f92-b65f-4f55-b04a-2efa8d3332db"/>
+        <COMPID name="FragLastCapability" mc="Standard.Class" uid="7805d3b3-ab49-44b3-b611-2f878b8f362c"/>
+        <COMPID name="FragFirstCapability" mc="Standard.Class" uid="de77c0b7-aaeb-4e87-8b11-0f34b028ee23"/>
+        <COMPID name="FragLenCapability" mc="Standard.Class" uid="e11afb42-9303-4127-94bf-c4c90b45798a"/>
+        <COMPID name="HbhCapability" mc="Standard.Class" uid="a2194bc9-b2e8-4b3c-aacf-ba0a35da3a0a"/>
+        <COMPID name="HbhLenCapability" mc="Standard.Class" uid="0636a173-22a0-449d-9729-01e754d357ae"/>
+        <COMPID name="HbhOptsCapability" mc="Standard.Class" uid="fc65ffc1-0781-487c-8256-706afb68d7b5"/>
+        <COMPID name="HopLimitBaseCapability" mc="Standard.Class" uid="ea4c764f-9a14-4e9c-ae41-49876eca8d6f"/>
+        <COMPID name="HopLimitCapability" mc="Standard.Class" uid="8b40579a-1465-4d0d-bc2a-d4979c952eae"/>
+        <COMPID name="Ipv6HeaderSoftCapability" mc="Standard.Class" uid="65cc801c-6557-493c-b1a2-9d63b11b24eb"/>
+        <COMPID name="Ipv6HeaderBaseCapability" mc="Standard.Class" uid="2448db81-765e-4e4c-a355-ca782e0812e1"/>
+        <COMPID name="Ipv6HeaderCapability" mc="Standard.Class" uid="330bcbc2-bc95-43ca-9624-52bfc29d4272"/>
+        <COMPID name="Rt" mc="Standard.Package" uid="ae626e02-3641-4477-a2a7-0042070ab885"/>
+        <COMPID name="EcnIpv6EctCapability" mc="Standard.Class" uid="7cbb29ef-433b-4019-ac64-da2e1eb93311"/>
+        <COMPID name="Ipv6Capability" mc="Standard.Class" uid="0ca16461-a465-4ad2-9755-d907d28cb008"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Ipv6 Class diagram" mc="Standard.ClassDiagram" uid="b305e143-4ec0-4f0f-8e74-0812cb96145a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
